@@ -1,0 +1,31 @@
+name: Build PocketMine Plugin
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Set up PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '7.4'
+
+    - name: Download DevTools.phar
+      run: wget https://jenkins.pmmp.io/job/PocketMine-MP/job/master/lastSuccessfulBuild/artifact/DevTools.phar
+    
+    - name: Build Plugin
+      run: |
+        php -d phar.readonly=0 DevTools.phar --make ./ --out=plugin.phar
+
+    - name: Upload Plugin Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: plugin
+        path: plugin.phar
