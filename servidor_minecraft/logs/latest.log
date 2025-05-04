@@ -1,200 +1,212 @@
-[04May2025 12:46:47.004] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
-[04May2025 12:46:47.007] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 11.0.26 by Ubuntu
-[04May2025 12:46:47.328] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[04May2025 12:46:47.402] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/Multi/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
-[04May2025 12:46:47.442] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/Multi/servidor_minecraft/config/fml.toml is not correct. Correcting
-[04May2025 12:46:47.447] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
-[04May2025 12:46:47.450] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [maxThreads] was corrected from null to -1
-[04May2025 12:46:47.450] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: com.electronwill.nightconfig.core.io.ParsingException: Invalid TOML data: entry "[maxThreads]" defined twice in its table.
-[04May2025 12:46:47.452] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.toml.TableParser.checkDuplicateKey(TableParser.java:88)
-[04May2025 12:46:47.452] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:59)
-[04May2025 12:46:47.453] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:44)
-[04May2025 12:46:47.453] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:37)
-[04May2025 12:46:47.454] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:113)
-[04May2025 12:46:47.454] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:219)
-[04May2025 12:46:47.455] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:202)
-[04May2025 12:46:47.455] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.file.WriteSyncFileConfig.load(WriteSyncFileConfig.java:73)
-[04May2025 12:46:47.455] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:181)
-[04May2025 12:46:47.828] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[04May2025 12:46:47.923] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[04May2025 12:46:47.930] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[04May2025 12:46:48.762] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-[04May2025 12:46:53.840] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
-[04May2025 12:46:53.863] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
-[04May2025 12:46:54.193] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Multi/servidor_minecraft/config/forge-common.toml is not correct. Correcting
-[04May2025 12:46:54.195] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[04May2025 12:46:54.196] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.defaultWorldType was corrected from null to its default, default. 
-[04May2025 12:46:54.237] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[04May2025 12:46:54.863] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 36.2.42 Target: null
-[04May2025 12:46:57.114] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[04May2025 12:46:57.980] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[04May2025 12:46:57.983] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[04May2025 12:46:57.984] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[04May2025 12:46:57.986] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[04May2025 12:46:57.988] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[04May2025 12:46:57.999] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.42-universal.jar
-[04May2025 12:46:59.415] [Worker-Main-5/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
-[04May2025 12:47:00.257] [Worker-Main-5/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
-[04May2025 12:47:01.897] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
-[04May2025 12:47:01.898] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[04May2025 12:47:01.899] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[04May2025 12:47:01.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[04May2025 12:47:02.191] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[04May2025 12:47:02.252] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
-[04May2025 12:47:02.424] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04May2025 12:47:02.425] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[04May2025 12:47:02.425] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04May2025 12:47:02.425] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[04May2025 12:47:02.458] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[04May2025 12:47:02.459] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[04May2025 12:47:02.460] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[04May2025 12:47:02.461] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringTileEntities was corrected from null to its default, false. 
-[04May2025 12:47:02.461] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[04May2025 12:47:02.465] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[04May2025 12:47:02.465] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[04May2025 12:47:02.467] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.logCascadingWorldGeneration was corrected from null to its default, true. 
-[04May2025 12:47:02.467] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixVanillaCascading was corrected from null to its default, false. 
-[04May2025 12:47:02.468] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.dimensionUnloadQueueDelay was corrected from null to its default, 0. 
-[04May2025 12:47:02.468] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to its default, false. 
-[04May2025 12:47:02.468] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
-[04May2025 12:47:02.499] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[04May2025 12:47:08.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[04May2025 12:47:09.225] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[04May2025 12:47:09.319] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[04May2025 12:47:09.820] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[04May2025 12:47:10.327] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[04May2025 12:47:10.823] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[04May2025 12:47:11.323] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 1%
-[04May2025 12:47:11.831] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
-[04May2025 12:47:12.321] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 3%
-[04May2025 12:47:12.821] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 5%
-[04May2025 12:47:13.328] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 6%
-[04May2025 12:47:13.823] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 7%
-[04May2025 12:47:14.320] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 7%
-[04May2025 12:47:14.821] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 12%
-[04May2025 12:47:15.330] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 12%
-[04May2025 12:47:15.898] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 13%
-[04May2025 12:47:16.325] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 13%
-[04May2025 12:47:16.846] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 16%
-[04May2025 12:47:17.331] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 16%
-[04May2025 12:47:17.830] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 16%
-[04May2025 12:47:18.652] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 21%
-[04May2025 12:47:19.216] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 21%
-[04May2025 12:47:19.362] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 24%
-[04May2025 12:47:19.847] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 28%
-[04May2025 12:47:20.320] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 28%
-[04May2025 12:47:20.819] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 29%
-[04May2025 12:47:21.323] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 31%
-[04May2025 12:47:21.825] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 31%
-[04May2025 12:47:22.324] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 34%
-[04May2025 12:47:22.823] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 35%
-[04May2025 12:47:23.341] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 35%
-[04May2025 12:47:23.820] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 35%
-[04May2025 12:47:24.326] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 35%
-[04May2025 12:47:24.822] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 42%
-[04May2025 12:47:25.324] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 42%
-[04May2025 12:47:25.823] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 42%
-[04May2025 12:47:26.324] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 42%
-[04May2025 12:47:26.830] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 42%
-[04May2025 12:47:27.320] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 42%
-[04May2025 12:47:27.824] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 52%
-[04May2025 12:47:28.326] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 55%
-[04May2025 12:47:28.822] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 56%
-[04May2025 12:47:29.319] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 56%
-[04May2025 12:47:29.964] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 56%
-[04May2025 12:47:30.950] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 63%
-[04May2025 12:47:30.950] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 63%
-[04May2025 12:47:31.509] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 68%
-[04May2025 12:47:32.478] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 71%
-[04May2025 12:47:32.479] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 71%
-[04May2025 12:47:33.495] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 75%
-[04May2025 12:47:33.495] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 75%
-[04May2025 12:47:34.001] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[04May2025 12:47:34.420] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 86%
-[04May2025 12:47:34.835] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
-[04May2025 12:47:35.484] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
-[04May2025 12:47:38.365] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
-[04May2025 12:47:38.366] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
-[04May2025 12:47:38.367] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
-[04May2025 12:47:38.367] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
-[04May2025 12:47:38.368] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
-[04May2025 12:47:38.368] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
-[04May2025 12:47:38.517] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 29698 ms
-[04May2025 12:47:38.518] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (36.067s)! For help, type "help"
-[04May2025 12:47:39.390] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown or incomplete command, see below for error
-[04May2025 12:47:39.391] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /home/codespace/.python/current/bin/python /workspaces/Multi/msx.py<--[HERE]
-[04May2025 12:48:37.880] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /advancement (grant|revoke)
-[04May2025 12:48:37.880] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /attribute <target> <attribute> (base|get|modifier)
-[04May2025 12:48:37.881] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /ban <targets> [<reason>]
-[04May2025 12:48:37.881] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /ban-ip <target> [<reason>]
-[04May2025 12:48:37.882] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /banlist [ips|players]
-[04May2025 12:48:37.882] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /bossbar (add|get|list|remove|set)
-[04May2025 12:48:37.882] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /clear [<targets>]
-[04May2025 12:48:37.883] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /clone <begin> <end> <destination> [filtered|masked|replace]
-[04May2025 12:48:37.884] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /config showfile <mod> <type>
-[04May2025 12:48:37.884] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /data (get|merge|modify|remove)
-[04May2025 12:48:37.885] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /datapack (disable|enable|list)
-[04May2025 12:48:37.886] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /debug (report|start|stop)
-[04May2025 12:48:37.888] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /defaultgamemode (adventure|creative|spectator|survival)
-[04May2025 12:48:37.889] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /deop <targets>
-[04May2025 12:48:37.889] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /difficulty [easy|hard|normal|peaceful]
-[04May2025 12:48:37.889] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /effect (clear|give)
-[04May2025 12:48:37.889] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /enchant <targets> <enchantment> [<level>]
-[04May2025 12:48:37.889] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /execute (align|anchored|as|at|facing|if|in|positioned|rotated|run|store|unless)
-[04May2025 12:48:37.889] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /experience (add|query|set)
-[04May2025 12:48:37.889] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /fill <from> <to> <block> [destroy|hollow|keep|outline|replace]
-[04May2025 12:48:37.890] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /forceload (add|query|remove)
-[04May2025 12:48:37.890] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /forge (dimensions|entity|generate|mods|setdimension|tps|track)
-[04May2025 12:48:37.890] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /function <name>
-[04May2025 12:48:37.891] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /gamemode (adventure|creative|spectator|survival)
-[04May2025 12:48:37.891] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /gamerule (announceAdvancements|commandBlockOutput|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|keepInventory|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobGriefing|naturalRegeneration|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|spawnRadius|spectatorsGenerateChunks|universalAnger)
-[04May2025 12:48:37.891] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /give <targets> <item> [<count>]
-[04May2025 12:48:37.891] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /help [<command>]
-[04May2025 12:48:37.892] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /kick <targets> [<reason>]
-[04May2025 12:48:37.892] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /kill [<targets>]
-[04May2025 12:48:37.892] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /list [uuids]
-[04May2025 12:48:37.892] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /locate (bastion_remnant|buried_treasure|desert_pyramid|endcity|fortress|igloo|jungle_pyramid|mansion|mineshaft|monument|nether_fossil|ocean_ruin|pillager_outpost|ruined_portal|shipwreck|stronghold|swamp_hut|village)
-[04May2025 12:48:37.893] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /locatebiome <biome>
-[04May2025 12:48:37.893] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /loot (give|insert|replace|spawn)
-[04May2025 12:48:37.893] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /me <action>
-[04May2025 12:48:37.894] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /msg <targets> <message>
-[04May2025 12:48:37.894] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /op <targets>
-[04May2025 12:48:37.894] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /pardon <targets>
-[04May2025 12:48:37.894] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /pardon-ip <target>
-[04May2025 12:48:37.895] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /particle <name> [<pos>]
-[04May2025 12:48:37.895] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /playsound <sound> (ambient|block|hostile|master|music|neutral|player|record|voice|weather)
-[04May2025 12:48:37.895] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /recipe (give|take)
-[04May2025 12:48:37.895] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /reload
-[04May2025 12:48:37.896] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /replaceitem (block|entity)
-[04May2025 12:48:37.896] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /save-all [flush]
-[04May2025 12:48:37.896] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /save-off
-[04May2025 12:48:37.896] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /save-on
-[04May2025 12:48:37.897] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /say <message>
-[04May2025 12:48:37.897] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /schedule (clear|function)
-[04May2025 12:48:37.897] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /scoreboard (objectives|players)
-[04May2025 12:48:37.897] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /seed
-[04May2025 12:48:37.897] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /setblock <pos> <block> [destroy|keep|replace]
-[04May2025 12:48:37.897] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /setidletimeout <minutes>
-[04May2025 12:48:37.897] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /setworldspawn [<pos>]
-[04May2025 12:48:37.898] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /spawnpoint [<targets>]
-[04May2025 12:48:37.898] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /spectate [<target>]
-[04May2025 12:48:37.898] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /spreadplayers <center> <spreadDistance> <maxRange> (under|<respectTeams>)
-[04May2025 12:48:37.898] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /stop
-[04May2025 12:48:37.899] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /stopsound <targets> [*|ambient|block|hostile|master|music|neutral|player|record|voice|weather]
-[04May2025 12:48:37.899] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /summon <entity> [<pos>]
-[04May2025 12:48:37.899] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tag <targets> (add|list|remove)
-[04May2025 12:48:37.899] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /team (add|empty|join|leave|list|modify|remove)
-[04May2025 12:48:37.899] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /teammsg <message>
-[04May2025 12:48:37.900] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /teleport (<destination>|<location>|<targets>)
-[04May2025 12:48:37.900] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tell -> msg
-[04May2025 12:48:37.900] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tellraw <targets> <message>
-[04May2025 12:48:37.901] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /time (add|query|set)
-[04May2025 12:48:37.901] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /title <targets> (actionbar|clear|reset|subtitle|times|title)
-[04May2025 12:48:37.901] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tm -> teammsg
-[04May2025 12:48:37.901] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tp -> teleport
-[04May2025 12:48:37.902] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /trigger <objective> [add|set]
-[04May2025 12:48:37.902] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /w -> msg
-[04May2025 12:48:37.902] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /weather (clear|rain|thunder)
-[04May2025 12:48:37.902] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /whitelist (add|list|off|on|reload|remove)
-[04May2025 12:48:37.903] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /worldborder (add|center|damage|get|set|warning)
-[04May2025 12:48:37.903] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /xp -> experience
+[04May2025 15:56:54.913] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[04May2025 15:56:54.915] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 11.0.26 by Ubuntu
+[04May2025 15:56:55.364] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[04May2025 15:56:55.431] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/Multi/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[04May2025 15:56:56.211] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[04May2025 15:56:56.301] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[04May2025 15:56:56.309] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[04May2025 15:56:56.315] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[04May2025 15:56:56.321] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[04May2025 15:56:56.391] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 13:0 token recognition error at: '`'
+[04May2025 15:56:57.319] [main/ERROR] [mixin/]: Mixin config boss_tools.mixin.json does not specify "minVersion" property
+[04May2025 15:56:57.449] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
+[04May2025 15:56:57.453] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[04May2025 15:56:58.033] [main/INFO] [net.minecraftforge.coremod.CoreMod.itemphysic/COREMODLOG]: start
+[04May2025 15:56:58.153] [main/INFO] [net.minecraftforge.coremod.CoreMod.itemphysic/COREMODLOG]: find block call
+[04May2025 15:57:00.930] [main/INFO] [net.minecraftforge.coremod.CoreMod.itemphysic/COREMODLOG]: start
+[04May2025 15:57:00.937] [main/INFO] [net.minecraftforge.coremod.CoreMod.itemphysic/COREMODLOG]: find block call
+[04May2025 15:57:01.343] [main/INFO] [FerriteCore - class definer/]: Using Java 9+ class definer
+[04May2025 15:57:04.607] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `debug`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[04May2025 15:57:04.608] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `citadel_book`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[04May2025 15:57:04.609] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `effect_item`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[04May2025 15:57:04.609] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `fancy_item`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[04May2025 15:57:05.226] [modloading-worker-3/INFO] [mod.pianomanu.blockcarpentry.BlockCarpentryMain/]: Registering all blocks and items from BlockCarpentry
+[04May2025 15:57:05.316] [modloading-worker-3/INFO] [mod.pianomanu.blockcarpentry.setup.Registration/]: Registering blocks copy BlockCarpentry
+[04May2025 15:57:05.316] [modloading-worker-3/INFO] [mod.pianomanu.blockcarpentry.setup.Registration/]: Registering items copy BlockCarpentry
+[04May2025 15:57:05.317] [modloading-worker-3/INFO] [mod.pianomanu.blockcarpentry.setup.Registration/]: Registering tiles copy BlockCarpentry
+[04May2025 15:57:05.318] [modloading-worker-3/INFO] [mod.pianomanu.blockcarpentry.setup.Registration/]: Registering containers copy BlockCarpentry
+[04May2025 15:57:05.318] [modloading-worker-3/INFO] [mod.pianomanu.blockcarpentry.setup.Registration/]: Registering points of interest copy Blockcarpentry
+[04May2025 15:57:05.318] [modloading-worker-3/INFO] [mod.pianomanu.blockcarpentry.BlockCarpentryMain/]: Registered all blocks and items from BlockCarpentry
+[04May2025 15:57:05.623] [modloading-worker-1/INFO] [de.teamlapen.vampirism.config.BalanceConfig/]: IceAndFire is loaded -> Adjusting default fire related configuration.
+[04May2025 15:57:05.913] [modloading-worker-2/INFO] [team.chisel.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[04May2025 15:57:06.569] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
+[04May2025 15:57:06.569] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
+[04May2025 15:57:14.190] [main/INFO] [patchouli/]: Loaded book jsons on Thread[main,5,main] in 43 ms
+[04May2025 15:57:14.630] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evilcraft:werewolf, use EntityAttributeCreationEvent instead.
+[04May2025 15:57:14.631] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evilcraft:netherfish, use EntityAttributeCreationEvent instead.
+[04May2025 15:57:14.631] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evilcraft:poisonous_libelle, use EntityAttributeCreationEvent instead.
+[04May2025 15:57:14.631] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evilcraft:vengeance_spirit, use EntityAttributeCreationEvent instead.
+[04May2025 15:57:14.631] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evilcraft:controlled_zombie, use EntityAttributeCreationEvent instead.
+[04May2025 15:57:14.736] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `evilcraft` for name `blood`, expected `cyclopscore`. This could be a intended override, but in most cases indicates a broken mod.
+[04May2025 15:57:14.737] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `evilcraft` for name `blood_flowing`, expected `cyclopscore`. This could be a intended override, but in most cases indicates a broken mod.
+[04May2025 15:57:14.738] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `evilcraft` for name `poison`, expected `cyclopscore`. This could be a intended override, but in most cases indicates a broken mod.
+[04May2025 15:57:14.738] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `evilcraft` for name `poison_flowing`, expected `cyclopscore`. This could be a intended override, but in most cases indicates a broken mod.
+[04May2025 15:57:14.809] [main/WARN] [de.teamlapen.vampirism.effects.VampirismNightVisionPotion/]: -------Please ignore the following error!------
+[04May2025 15:57:14.809] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `night_vision`, expected `vampirism`. This could be a intended override, but in most cases indicates a broken mod.
+[04May2025 15:57:14.809] [main/WARN] [de.teamlapen.vampirism.effects.VampirismNightVisionPotion/]: -----------------------------------------------
+[04May2025 15:57:14.875] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
+[04May2025 15:57:15.145] [main/INFO] [ModdingLegacy/structure_gel/Compat/]: Checking for biome dictionary registry methods in other mods.
+[04May2025 15:57:15.475] [modloading-worker-0/INFO] [com.connectivity.Connectivity/]: Connectivity initialized
+[04May2025 15:57:15.477] [modloading-worker-0/INFO] [com.betterfpsdist.BetterfpsdistMod/]: betterfpsdist mod initialized
+[04May2025 15:57:15.667] [modloading-worker-2/INFO] [evilcraft/]: Registered packet handler.
+[04May2025 15:57:15.679] [modloading-worker-3/INFO] [evilcraft/]: Registered packet handler.
+[04May2025 15:57:15.706] [modloading-worker-2/INFO] [mod.pianomanu.blockcarpentry.BlockCarpentryMain/]: Setting up BlockCarpentry mod
+[04May2025 15:57:15.900] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
+[04May2025 15:57:15.926] [modloading-worker-2/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[04May2025 15:57:15.935] [Thread-1/INFO] [de.teamlapen.lib.lib.util.VersionChecker/]: Starting version check at https://maxanier.de/projects/vampirism/versions.json
+[04May2025 15:57:16.002] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: BETA Current: 1.13.0 Target: null
+[04May2025 15:57:16.003] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [treechop] Starting version check at https://raw.githubusercontent.com/hammertater/treechop/main/update.json
+[04May2025 15:57:16.020] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for boss_tools:alien, use EntityAttributeCreationEvent instead.
+[04May2025 15:57:16.020] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for boss_tools:pygro, use EntityAttributeCreationEvent instead.
+[04May2025 15:57:16.020] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for boss_tools:mogler, use EntityAttributeCreationEvent instead.
+[04May2025 15:57:16.021] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for boss_tools:alien_zombie, use EntityAttributeCreationEvent instead.
+[04May2025 15:57:16.021] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for boss_tools:star_crawler, use EntityAttributeCreationEvent instead.
+[04May2025 15:57:16.021] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for boss_tools:rocket_t1, use EntityAttributeCreationEvent instead.
+[04May2025 15:57:16.021] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.mrscauthd.boss_tools.entity.RocketTier1Entity from class net.mrscauthd.boss_tools.entity.RocketTier2Entity
+[04May2025 15:57:16.021] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.mrscauthd.boss_tools.entity.RocketTier1Entity from class net.mrscauthd.boss_tools.entity.RocketTier2Entity
+[04May2025 15:57:16.022] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.mrscauthd.boss_tools.entity.RocketTier1Entity from class net.mrscauthd.boss_tools.entity.RocketTier2Entity
+[04May2025 15:57:16.022] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.mrscauthd.boss_tools.entity.RocketTier1Entity from class net.mrscauthd.boss_tools.entity.RocketTier2Entity
+[04May2025 15:57:16.022] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for boss_tools:rocket_t2, use EntityAttributeCreationEvent instead.
+[04May2025 15:57:16.022] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.mrscauthd.boss_tools.entity.RocketTier1Entity from class net.mrscauthd.boss_tools.entity.RocketTier3Entity
+[04May2025 15:57:16.022] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.mrscauthd.boss_tools.entity.RocketTier1Entity from class net.mrscauthd.boss_tools.entity.RocketTier3Entity
+[04May2025 15:57:16.022] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.mrscauthd.boss_tools.entity.RocketTier1Entity from class net.mrscauthd.boss_tools.entity.RocketTier3Entity
+[04May2025 15:57:16.023] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.mrscauthd.boss_tools.entity.RocketTier1Entity from class net.mrscauthd.boss_tools.entity.RocketTier3Entity
+[04May2025 15:57:16.023] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for boss_tools:rocket_t3, use EntityAttributeCreationEvent instead.
+[04May2025 15:57:16.023] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for boss_tools:lander, use EntityAttributeCreationEvent instead.
+[04May2025 15:57:16.023] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.mrscauthd.boss_tools.entity.RocketTier1Entity from class net.mrscauthd.boss_tools.entity.RoverEntity
+[04May2025 15:57:16.023] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for boss_tools:rover, use EntityAttributeCreationEvent instead.
+[04May2025 15:57:16.042] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.WaterEffect as a FluidEffect for Water with the ID 0
+[04May2025 15:57:16.043] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.LavaEffect as a FluidEffect for Lava with the ID 1
+[04May2025 15:57:16.043] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.PotionEffect as a FluidEffect for fluid.travelersbackpack.potion_fluid with the ID 2
+[04May2025 15:57:16.043] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.MilkEffect as a FluidEffect for Air with the ID 3
+[04May2025 15:57:16.069] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [treechop] Found status: UP_TO_DATE Current: 0.14.6 Target: null
+[04May2025 15:57:16.070] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[04May2025 15:57:16.083] [main/INFO] [de.teamlapen.vampirism.core.ModFeatures/]: Replacing vanilla village structure separation settings for the overworld dimension preset
+[04May2025 15:57:16.101] [modloading-worker-2/INFO] [mod.pianomanu.blockcarpentry.BlockCarpentryMain/]: Processing InterModCommunication
+[04May2025 15:57:16.122] [modloading-worker-2/INFO] [mod.pianomanu.blockcarpentry.BlockCarpentryMain/]: Processed InterModCommunication
+[04May2025 15:57:16.138] [modloading-worker-0/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[04May2025 15:57:16.139] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Attempting to register unregistered biomes to the biome dictionary. This can be disabled via config.
+[04May2025 15:57:16.239] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: v1.9.12.1 Target: v1.10.1
+[04May2025 15:57:16.241] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[04May2025 15:57:16.295] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: null
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:160) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?]
+[04May2025 15:57:16.297] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
+[04May2025 15:57:16.312] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: BETA Current: 1.1.17 Target: null
+[04May2025 15:57:16.313] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obfuscate] Starting version check at https://mrcrayfish.com/modupdatejson?id=obfuscate
+[04May2025 15:57:16.489] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Registered boss_tools:mars to structure_gel:[]
+[04May2025 15:57:16.490] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Registered boss_tools:venus_hills to structure_gel:[]
+[04May2025 15:57:16.490] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Registered evilcraft:degraded to structure_gel:[]
+[04May2025 15:57:16.490] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Registered boss_tools:orbit to structure_gel:[]
+[04May2025 15:57:16.490] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Registered boss_tools:infernal_venus_barrens to structure_gel:[]
+[04May2025 15:57:16.490] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Registered boss_tools:mercury_magma to structure_gel:[]
+[04May2025 15:57:16.491] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Registered werewolves:werewolf_heaven to structure_gel:[]
+[04May2025 15:57:16.491] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Registered boss_tools:mars_ice_spike to structure_gel:[]
+[04May2025 15:57:16.491] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Registered boss_tools:moon to structure_gel:[]
+[04May2025 15:57:16.491] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Registered vampirism:vampire_forest_hills to structure_gel:[]
+[04May2025 15:57:16.491] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Registered vampirism:vampire_forest to structure_gel:[]
+[04May2025 15:57:16.491] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Registered boss_tools:mercury to structure_gel:[]
+[04May2025 15:57:16.491] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Registered boss_tools:venus to structure_gel:[]
+[04May2025 15:57:16.492] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:tower
+[04May2025 15:57:16.492] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:bigger_dungeon
+[04May2025 15:57:16.492] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:leviathan
+[04May2025 15:57:16.493] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:snowy_temple
+[04May2025 15:57:16.494] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:end_ruins
+[04May2025 15:57:16.494] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:warped_garden
+[04May2025 15:57:16.494] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for dungeons_plus:soul_prison
+[04May2025 15:57:16.496] [main/INFO] [de.teamlapen.vampirism.core.ModFeatures/]: Replacing vanilla village structure separation settings for the overworld dimension preset
+[04May2025 15:57:16.912] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obfuscate] Found status: BETA Current: 0.6.3 Target: 0.6.3
+[04May2025 15:57:16.912] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[04May2025 15:57:17.378] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre22 Target: null
+[04May2025 15:57:17.378] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Starting version check at https://maxanier.de/projects/vampirism/versions.json
+[04May2025 15:57:17.478] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: null
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:160) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?]
+[04May2025 15:57:17.479] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[04May2025 15:57:17.488] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: OUTDATED Current: 3.0.2 Target: 3.3.0
+[04May2025 15:57:17.488] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[04May2025 15:57:17.496] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 1.0.15 Target: null
+[04May2025 15:57:17.496] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cloudboots] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/3f4df725e9107ae6093e07c498515d01/raw
+[04May2025 15:57:17.523] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: null
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:160) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?]
+[04May2025 15:57:17.524] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[04May2025 15:57:17.646] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 36.2.42 Target: null
+[04May2025 15:57:17.647] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/enchantinginfuser.json
+[04May2025 15:57:17.662] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Found status: UP_TO_DATE Current: 1.0.2 Target: null
+[04May2025 15:57:20.322] [main/ERROR] [net.minecraft.util.registry.WorldSettingsImport/]: Error adding element: Spread too big: 8 > 5
+[04May2025 15:57:20.322] [main/ERROR] [net.minecraft.util.registry.WorldSettingsImport/]: Error adding element: Spread too big: 6 > 5
+[04May2025 15:57:20.773] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04May2025 15:57:21.239] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [tb, pos] and [tb, target] with inputs: [0 0 0]
+[04May2025 15:57:21.244] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04May2025 15:57:21.245] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04May2025 15:57:21.246] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04May2025 15:57:21.247] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04May2025 15:57:21.248] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04May2025 15:57:21.264] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, CyclopsCore-1.16.5-1.13.0.jar, TreeChop-1.16.4-0.14.6-fixed.jar, mowziesmobs-1.5.25.jar, BiomesOPlenty-1.16.5-13.1.0.488-universal.jar, dungeons_plus-1.16.5-1.1.5.jar, CreativeCore_v2.2.1_mc1.16.5.jar, jei-1.16.5-7.8.0.1009.jar, smoothboot-forge-1.16.4-1.2.2.jar, connectivity-2.4-1.16.5.jar, betterfpsdist-1.2.jar, Space-BossTools-1.16.5-5.5e.jar, Patchouli-1.16.4-53.3.jar, CTM-MC1.16.1-1.1.2.6.jar, citadel-1.8.1-1.16.5.jar, alexsmobs-1.12.1.jar, [1.16.5] SecurityCraft v1.9.12.1.jar, TravelersBackpack-1.16.5-5.4.22.jar, EvilCraft-1.16.5-1.1.17.jar, blockcarpentry-1.16-0.6.0.jar, obfuscate-0.6.3-1.16.5.jar, upgradedcore-1.16.5-1.1.0.0-release.jar, lazydfu-0.1.3.jar, cfm-7.0.0pre22-1.16.3.jar, Vampirism-1.16.5-1.9.10.jar, Werewolves-1.16.5-1.1.0.3.jar, ferritecore-2.1.1-forge.jar, Chisel-MC1.16.5-2.0.1-alpha.4.jar, mcw-furniture-3.0.2-mc1.16.5.jar, iceandfire-2.1.11-1.16.5.jar, ItemPhysic_v1.4.18_mc1.16.5.jar, PuzzlesLib-v1.0.15-1.16.5-Forge.jar, CloudBoots-1.16.5-2.1.1.jar, forge-1.16.5-36.2.42-universal.jar, geckolib-forge-1.16.5-3.0.57.jar, EnchantingInfuser-v1.0.2-1.16.5-Forge.jar, upgradednetherite-1.16.5-2.1.0.1-release.jar, structure_gel-1.16.5-1.7.8.jar
+[04May2025 15:57:22.545] [Worker-Main1/INFO] [de.teamlapen.lib.lib.config.BloodValueLoader/config]: Loaded 0 entities blood values
+[04May2025 15:57:22.586] [Worker-Main1/INFO] [de.teamlapen.lib.lib.config.BloodValueLoader/config]: Loaded 0 items blood values
+[04May2025 15:57:22.632] [Worker-Main1/INFO] [de.teamlapen.lib.lib.config.BloodValueLoader/config]: Loaded 0 fluids blood values
+[04May2025 15:57:23.130] [Worker-Main2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
+[04May2025 15:57:23.162] [Worker-Main2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
+[04May2025 15:57:23.195] [Worker-Main2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/guidebook as it's serializer returned null
+[04May2025 15:57:23.203] [Worker-Main2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 21 recipes
+[04May2025 15:57:24.051] [Worker-Main2/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {alexsmobs:gameplay/seal_reward}.pools[0].entries[1].functions[0]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[04May2025 15:57:24.195] [Worker-Main2/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2716 advancements
+[04May2025 15:57:24.198] [Worker-Main2/INFO] [de.teamlapen.vampirism.player.skills.SkillTree/]: Loaded 80 skill nodes
+[04May2025 15:57:24.202] [Worker-Main2/INFO] [de.teamlapen.vampirism.entity.converted.VampirismEntityRegistry/]: Registered 12 convertibles
+[04May2025 15:57:26.445] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[04May2025 15:57:26.445] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[04May2025 15:57:29.025] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[04May2025 15:57:29.026] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[04May2025 15:57:29.026] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[04May2025 15:57:29.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[04May2025 15:57:29.144] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[04May2025 15:57:29.168] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[04May2025 15:57:29.287] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04May2025 15:57:29.288] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[04May2025 15:57:29.288] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04May2025 15:57:29.288] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[04May2025 15:57:29.329] [Thread-0/INFO] [Puzzles Lib/]: Reloading server config for enchantinginfuser
+[04May2025 15:57:29.331] [Thread-0/INFO] [Puzzles Lib/]: Reloading server config for enchantinginfuser
+[04May2025 15:57:29.367] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[04May2025 15:57:29.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[04May2025 15:57:30.715] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[04May2025 15:57:30.716] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[04May2025 15:57:30.716] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[04May2025 15:57:31.652] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[04May2025 15:57:31.653] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[04May2025 15:57:33.736] [Worker-Main1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[04May2025 15:57:33.737] [Worker-Main1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[04May2025 15:57:33.738] [Worker-Main1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[04May2025 15:57:33.738] [Worker-Main1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[04May2025 15:57:34.012] [Worker-Main1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 99%
+[04May2025 15:57:34.297] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 4793 ms
+[04May2025 15:57:34.298] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.993s)! For help, type "help"
+[04May2025 15:57:34.358] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[04May2025 15:57:34.382] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
+[04May2025 15:57:34.422] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
+[04May2025 15:57:34.422] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
+[04May2025 15:57:34.423] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
+[04May2025 15:57:34.452] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.baubles due to unsatisfied mod condition.
+[04May2025 15:57:34.452] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.blood_magic due to unsatisfied mod condition.
+[04May2025 15:57:34.452] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.ee3 due to unsatisfied mod condition.
+[04May2025 15:57:34.453] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.enderio due to unsatisfied mod condition.
+[04May2025 15:57:34.453] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.forestry due to unsatisfied mod condition.
+[04May2025 15:57:34.453] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.ic2 due to unsatisfied mod condition.
+[04May2025 15:57:34.454] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.immersiveengineering due to unsatisfied mod condition.
+[04May2025 15:57:34.454] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.thaumcraft due to unsatisfied mod condition.
+[04May2025 15:57:34.454] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.thermal_expansion due to unsatisfied mod condition.
+[04May2025 15:57:34.454] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.tinkers_construct due to unsatisfied mod condition.
+[04May2025 15:57:34.455] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.waila due to unsatisfied mod condition.
+[04May2025 15:57:34.456] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {SPAWN_DRAGON_SKELETON_I_CF=true, HYDRA_CAVE_CF=true, SPAWN_SEA_SERPENT_CF=true, SPAWN_STYMPHALIAN_BIRD_CF=true, SPAWN_WANDERING_CYCLOPS_CF=true, PIXIE_VILLAGE_CF=false, SPAWN_DEATH_WORM_CF=true, FIRE_DRAGON_CAVE_CF=true, SIREN_ISLAND_CF=true, MYRMEX_HIVE_DESERT_CF=true, SPAWN_HIPPOCAMPUS_CF=true, FIRE_DRAGON_ROOST_CF=true, MYRMEX_HIVE_JUNGLE_CF=true, GORGON_TEMPLE_CF=true, COPPER_ORE_CF=true, SILVER_ORE_CF=true, LIGHTNING_DRAGON_CAVE_CF=true, SPAWN_DRAGON_SKELETON_F_CF=true, AMETHYST_ORE_CF=true, SPAWN_DRAGON_SKELETON_L_CF=true, LIGHTNING_LILY_CF=true, MAUSOLEUM_CF=true, ICE_DRAGON_CAVE_CF=true, GRAVEYARD_CF=true, SAPPHIRE_ORE_CF=true, LIGHTNING_DRAGON_ROOST_CF=true, CYCLOPS_CAVE_CF=true, FROST_LILY_CF=true, FIRE_LILY_CF=true, ICE_DRAGON_ROOST_CF=true}
+[04May2025 15:57:34.456] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}

@@ -1,0 +1,293 @@
+
+[player]
+	#Level based damage attribute modifier
+	#Range: 0.0 ~ 10.0
+	werewolf_damage = 1.0
+	#Level based armor toughness attribute modifier
+	#Range: 0.0 ~ 10.0
+	werewolf_armor_toughness = 3.0
+	#Level based claw damage attribute modifier
+	#Range: 0.0 ~ 2.147483647E9
+	werewolf_claw_damage = 2.0
+	#Level based speed attribute modifier
+	#Range: 0.0 ~ 5.0
+	werewolf_speed_amount = 0.2
+	#Cooldown of bite attack (in ticks)
+	#Range: > 5
+	bite_cooldown = 120
+
+[mobProps]
+
+	[mobProps.werewolf]
+		#Range: 0.0 ~ 1.7976931348623157E308
+		werewolf_attack_damage_pl = 1.0
+		#Time until a werewolf turns back human
+		#In Seconds
+		#Range: > 10
+		werewolf_transform_duration = 25
+		#Range: 0.1 ~ 2.0
+		werewolf_speed = 0.3
+		#Range: 0.0 ~ 1.7976931348623157E308
+		werewolf_max_health_pl = 3.0
+		#Range: 10.0 ~ 1.7976931348623157E308
+		werewolf_max_health = 30.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		werewolf_attack_damage = 3.0
+
+	[mobProps.human_werewolf]
+		#Range: 10.0 ~ 1.7976931348623157E308
+		human_werewolf_max_health = 30.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		human_werewolf_attack_damage = 3.0
+		#Range: 0.1 ~ 2.0
+		human_werewolf_speed = 0.36
+
+[skills]
+
+	[skills.stun_bite]
+		#In ticks
+		#Range: > 0
+		stun_bite_duration = 30
+
+	[skills.better_claws]
+		#Range: 0.0 ~ 2.147483647E9
+		better_claw_damage = 1.0
+
+	[skills.sixth_sense]
+		#In seconds
+		#Range: > 1
+		sixth_sense_cooldown = 30
+		#Intended for unlimited usage
+		#In ticks
+		#Range: > 1
+		sixth_sense_duration = 2147483647
+		sixth_sense_enabled = true
+
+	[skills.health]
+		#Range: 0.0 ~ 10.0
+		health_amount = 5.0
+
+	[skills.fear_action]
+		#In seconds
+		#Range: > 1
+		fear_action_cooldown = 25
+		fear_action_enabled = true
+
+	[skills.sense]
+		#In seconds
+		#Range: > 1
+		sense_duration = 30
+		sense_enabled = true
+		#Range: 1 ~ 400
+		sense_radius = 25
+		#In seconds
+		#Range: > 1
+		sense_cooldown = 90
+
+	[skills.thick_fur]
+		#Multiplier for the default damage reduction of the werewolf fur
+		#Range: 1.0 ~ 10.0
+		thick_fur_multiplier = 1.5
+
+	[skills.werewolf_form]
+		#Time a player can stay in werewolf form
+		#In seconds
+		#Range: > 1
+		werewolf_form_time_limit = 80
+
+		[skills.werewolf_form.survival_form]
+			#Range: 0.0 ~ 5.0
+			survival_form_speed_amount = 0.5
+			#Range: 0.0 ~ 100.0
+			survival_form_attack_damage = 1.5
+			#Range: 0.0 ~ 1.7976931348623157E308
+			survival_form_bite_damage = 3.0
+			survival_form_enabled = true
+			#Range: 0.0 ~ 1.7976931348623157E308
+			survival_form_health = 4.0
+			#In seconds
+			#Range: 0 ~ 10000
+			survival_form_cooldown = 0
+			#Range: 0.0 ~ 20.0
+			survival_form_armor = 16.0
+			#Range: 0.0 ~ 10.0
+			survival_form_armor_toughness = 6.0
+
+		[skills.werewolf_form.beast_form]
+			#Range: 0.0 ~ 1.7976931348623157E308
+			beast_form_bite_damage = 4.0
+			#In seconds
+			#Range: 0 ~ 10000
+			beast_form_cooldown = 0
+			#Range: 0.0 ~ 100.0
+			beast_form_attack_damage = 3.0
+			#Range: 0.0 ~ 10.0
+			beast_form_armor_toughness = 8.0
+			#Range: 0.0 ~ 20.0
+			beast_form_armor = 20.0
+			#Range: 0.0 ~ 20.0
+			beast_form_health = 8.0
+			beast_form_enabled = true
+			#Range: 0.0 ~ 5.0
+			beast_form_speed_amount = 0.4
+
+		[skills.werewolf_form.human_form]
+			#Range: 0.0 ~ 20.0
+			human_form_armor = 5.0
+			human_form_enabled = true
+			#In seconds
+			#Range: 0 ~ 10000
+			human_form_cooldown = 0
+			#Range: 0.0 ~ 10.0
+			human_form_armor_toughness = 2.0
+			#Range: 0.0 ~ 5.0
+			human_form_speed_amount = 0.2
+
+	[skills."movement tactics"]
+		#Doge chance for the movement tactics skill
+		#Range: 0.0 ~ 1.0
+		movement_tactics_doge_chance = 0.25
+
+	[skills.resistance]
+		#Range: 0.0 ~ 10.0
+		resistance_amount = 3.0
+
+	[skills.speed]
+		#Range: 0.0 ~ 1.0
+		speed_amount = 0.013
+
+	[skills.health_reg]
+		#Range: 0.0 ~ 1.0
+		health_reg_modifier = 0.2
+
+	[skills.bleeding_bite]
+		#In ticks
+		#Range: > 0
+		bleeding_bite_duration = 100
+
+	[skills.bite]
+		#In seconds
+		#Range: > 0
+		bite_cooldown = 5
+		bite_enabled = true
+
+	[skills.wolf_pack]
+		#In seconds
+		#Range: > 1
+		wolf_pack_wolf_duration = 25
+		wolf_pack_enabled = true
+		#In seconds
+		#Range: > 1
+		wolf_pack_cooldown = 120
+		#Spawned wolves when the wolf pack skill is unlocked
+		#Range: 0 ~ 10
+		wolf_pack_wolf_amount = 2
+
+	[skills.howling]
+		#Howling effect duration
+		#In seconds
+		#Range: > 1
+		howling_duration = 10
+		howling_enabled = true
+		#Range: 0.0 ~ 5.0
+		howling_attackspeed_amount = 2.0
+		#Duration that cancels new howling effects
+		#In seconds
+		#Range: > 1
+		howling_disabled_duration = 10
+		#In seconds
+		#Range: > 1
+		howling_cooldown = 35
+
+	[skills.hide_name]
+		#Intended for unlimited usage
+		#In ticks
+		#Range: > 1
+		hide_name_duration = 2147483647
+		#In seconds
+		#Range: > 1
+		hide_name_cooldown = 1
+		hide_name_enabled = true
+
+	[skills.rage]
+		rage_enabled = true
+		#Range: 0.0 ~ 1.7976931348623157E308
+		rage_bite_damage = 4.0
+		#In seconds
+		#Range: > 0
+		rage_cooldown = 30
+		#In seconds
+		#Range: > 0
+		rage_duration = 10
+
+	[skills.leap]
+		leap_enabled = true
+		#In seconds
+		#Range: > 1
+		leap_cooldown = 6
+
+[potions]
+	#How much a Werewolf should be weakened by the silver effect
+	#Range: -1.0 ~ 0.0
+	silverStatsReduction = -0.3
+	#How much damage the bleeding effect should do per damaging tick
+	#Range: 0.0 ~ 1.7976931348623157E308
+	bleedingEffectDamage = 0.4
+
+[util]
+	#The duration of the silver effect when attacking with a silver item
+	#in ticks
+	#Range: > 1
+	silverItemEffectDuration = 30
+	#if skeletons should ignore werewolves
+	skeletonIgnoreWerewolves = true
+	#in seconds
+	#Range: > 1
+	silverBoldEffectDuration = 6
+
+[refinements]
+	#In Seconds
+	#Range: > 0
+	werewolf_form_duration_human_2 = 30
+	#Increased wolf spawning for the howling action
+	#Range: 0 ~ 5
+	more_wolves = 1
+	#In Seconds
+	#Range: > 0
+	werewolf_form_duration_general_1 = 20
+	#In Seconds
+	#Range: > 0
+	werewolf_form_duration_general_2 = 40
+	#In Seconds
+	#Range: > 0
+	werewolf_form_duration_beast_1 = 20
+	#In Ticks
+	#Range: > 0
+	rage_fury_timer_extend = 60
+	#Increased doge chance for movement tactics skill
+	#Range: 0.0 ~ 1.0
+	greater_doge_chance = 0.1
+	#In Seconds
+	#Range: > 0
+	werewolf_form_duration_beast_2 = 30
+	#In Ticks
+	#Range: > 0
+	stun_bite_duration_extend = 20
+	#In Seconds
+	#Range: > 0
+	werewolf_form_duration_human_1 = 20
+	#In Seconds
+	#Range: > 0
+	werewolf_form_duration_survival_2 = 30
+	#In Seconds
+	#Range: > 0
+	werewolf_form_duration_survival_1 = 20
+
+[oils]
+	#the amount of hits the oil stays on the weapon
+	#Range: > 1
+	silverOil2Duration = 40
+	#the amount of hits the oil stays on the weapon
+	#Range: > 1
+	silverOil1Duration = 15
+
