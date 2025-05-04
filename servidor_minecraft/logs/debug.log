@@ -8177,3 +8177,15 @@ java.lang.NullPointerException: null
 [04May2025 16:12:34.458] [IO-Worker-16/DEBUG] [Smooth Boot/]: Initialized IO-Worker-19
 [04May2025 16:12:34.466] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
 [04May2025 16:12:34.479] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[04May2025 16:17:34.408] [Server thread/DEBUG] [Smooth Boot/]: Initialized IO-Worker-20
+[04May2025 16:17:34.408] [IO-Worker-20/DEBUG] [Smooth Boot/]: Initialized IO-Worker-21
+[04May2025 16:17:34.418] [IO-Worker-21/DEBUG] [Smooth Boot/]: Initialized IO-Worker-22
+[04May2025 16:17:34.460] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[04May2025 16:17:34.471] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[04May2025 16:22:34.408] [Server thread/DEBUG] [Smooth Boot/]: Initialized IO-Worker-23
+[04May2025 16:22:34.409] [IO-Worker-23/DEBUG] [Smooth Boot/]: Initialized IO-Worker-24
+[04May2025 16:22:34.412] [IO-Worker-24/DEBUG] [Smooth Boot/]: Initialized IO-Worker-25
+[04May2025 16:22:34.439] [IO-Worker-24/DEBUG] [Smooth Boot/]: Initialized IO-Worker-26
+[04May2025 16:22:34.463] [IO-Worker-23/DEBUG] [Smooth Boot/]: Initialized IO-Worker-27
+[04May2025 16:22:34.473] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[04May2025 16:22:34.487] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
