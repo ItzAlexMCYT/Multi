@@ -1,0 +1,51 @@
+
+[Config]
+	#Enable Lapis Lazuli coat cycling?
+	lapisCycle = true
+	#Specify in seconds the interval between each poop cycle.
+	#Range: > 1
+	poopInterval = 960
+	#Specify how much xp is needed for reaching max jump level. The level ranges will be decided by an internal formula.
+	#Range: > 1
+	maxJumpXP = 13500
+	#Enable Food need ticking on swem horses?
+	foodTick = true
+	#Enable Pee ticking on swem horses?
+	peeTick = true
+	#Enable Water need ticking on swem horses?
+	waterTick = true
+	#Make hunger thirst system base on IRL days? (Preferred option for servers.)
+	multiPlayerHungerThirst = false
+	#Specify how many seconds it takes for the parent to be able to breed again? (Default is 1800 seconds = 30 minutes)
+	#Range: > 1
+	horseInLoveInSeconds = 1800
+	#Enable Poop ticking on swem horses?
+	poopTick = true
+	#Specify in seconds the interval between each pee cycle.
+	#Range: > 1
+	peeInterval = 930
+	#Specify how much xp that last level is. The level ranges and total xp required will be decided by an internal formula.
+	#Range: > 1
+	maxAffinityXP = 17000
+	#Specify how much xp is needed for reaching max health level. The level ranges will be decided by an internal formula.
+	#Range: > 1
+	maxHealthXP = 13500
+	#Specify how much xp is needed for reaching max speed level. The level ranges will be decided by an internal formula.
+	#Range: > 1
+	maxSpeedXP = 13500
+	#Specify how many seconds it takes for the foal to growp up? (Default is 1800 seconds = 30 minutes)
+	#Range: > 1
+	foalAgeInSeconds = 1800
+
+	[Config."Tack Dependencies"]
+		#Enable/Disable the halter, being needed for any other tack.
+		HalterDependency = true
+		#Enable/Disable the need of a blanket, before saddling up.
+		NeedBlanket = true
+		#Enable/Disable the rider falling off the horse, in case there is no girth strap equipped.
+		RiderFallingOff = true
+		#Enable/Disable the need of a bridle in order to steer, the horse. (If disabled, you would still need a saddle.)
+		NeedBridleToSteer = true
+		#Enable/Disable the need of putting the saddle on, before you can put a girth strap on.
+		NeedSaddleForGirthStrap = true
+

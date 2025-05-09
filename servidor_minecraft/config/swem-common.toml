@@ -1,0 +1,45 @@
+
+[SWEMOreGen]
+	#SWEMCobble ore vein count per chunk
+	#Range: > 1
+	SWEMCobbleVeinCount = 12
+	#SWEMCobble ore minimum height
+	#Range: > 1
+	SWEMCobbleBottomHeight = 50
+	#Cantazarite ore minimum height
+	#Range: > 0
+	CantazariteBottomHeight = 0
+	#Amethyst ore maximum height
+	#Range: > 1
+	AmethystMaxHeight = 15
+	#Cantazarite ore maximum height
+	#Range: > 1
+	CantazariteMaxHeight = 30
+	#Enable SWEMCobble ore generation?
+	EnableSWEMCobbleOre = true
+	#Amethyst ore vein count per chunk
+	#Range: > 1
+	AmethystVeinCount = 2
+	#Cantazarite ore vein count per chunk
+	#Range: > 1
+	CantazariteVeinCount = 6
+	#Enable cantazarite ore generation?
+	EnableCantazariteOre = true
+	#Amethyst ore vein size
+	#Range: > 1
+	AmethystVeinSize = 8
+	#Amethyst ore minimum height
+	#Range: > 0
+	AmethystBottomHeight = 0
+	#Cantazarite ore vein size
+	#Range: > 1
+	CantazariteVeinSize = 4
+	#SWEMCobble ore maximum height
+	#Range: > 1
+	SWEMCobbleMaxHeight = 128
+	#Enable amethyst ore generation?
+	EnableAmethystOre = true
+	#SWEMCobble ore vein size
+	#Range: > 1
+	SWEMCobbleVeinSize = 7
+

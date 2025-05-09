@@ -1,0 +1,3256 @@
+{
+  "__comment": [
+    "Mobs will be able to equip items declared here",
+    "The first number is the weight while the second number is the quality",
+    "Weight is the weight of an item. Higher weight means that the item is more likely to get choosen",
+    "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
+  ],
+  "MAINHAND": {
+    "accuratearmor:assaulter_knife": [
+      1152,
+      -1.216
+    ],
+    "accuratearmor:assaulter_knife_a": [
+      1152,
+      -1.216
+    ],
+    "minecraft:bow": [
+      1108,
+      0.0
+    ],
+    "minecraft:crossbow": [
+      1000,
+      0.0
+    ],
+    "minecraft:diamond_axe": [
+      1101,
+      -0.808
+    ],
+    "minecraft:diamond_sword": [
+      789,
+      1.688
+    ],
+    "minecraft:enchanted_book": [
+      1100,
+      0.0
+    ],
+    "minecraft:golden_axe": [
+      1334,
+      -2.672
+    ],
+    "minecraft:golden_sword": [
+      1362,
+      -2.896
+    ],
+    "minecraft:iron_axe": [
+      1233,
+      -1.864
+    ],
+    "minecraft:iron_sword": [
+      1225,
+      -1.8
+    ],
+    "minecraft:lingering_potion{Potion:\"minecraft:harming\"}": [
+      1050,
+      0.0
+    ],
+    "minecraft:netherite_axe": [
+      1008,
+      -0.064
+    ],
+    "minecraft:netherite_sword": [
+      602,
+      3.184
+    ],
+    "minecraft:snowball": [
+      1400,
+      0.0
+    ],
+    "minecraft:splash_potion{Potion:\"minecraft:harming\"}": [
+      1050,
+      0.0
+    ],
+    "minecraft:stone_axe": [
+      1244,
+      -1.952
+    ],
+    "minecraft:stone_sword": [
+      1298,
+      -2.384
+    ],
+    "minecraft:tnt": [
+      800,
+      0.0
+    ],
+    "minecraft:trident": [
+      900,
+      0.0
+    ],
+    "minecraft:wooden_axe": [
+      1332,
+      -2.656
+    ],
+    "minecraft:wooden_sword": [
+      1354,
+      -2.832
+    ],
+    "simpleknives:diamond_knife": [
+      948,
+      0.416
+    ],
+    "simpleknives:golden_knife": [
+      1394,
+      -3.152
+    ],
+    "simpleknives:iron_knife": [
+      1281,
+      -2.248
+    ],
+    "simpleknives:netherite_knife": [
+      795,
+      1.64
+    ],
+    "simpleknives:stone_knife": [
+      1342,
+      -2.736
+    ],
+    "simpleknives:wooden_knife": [
+      1388,
+      -3.104
+    ],
+    "spartanweaponry:battleaxe_bronze": [
+      1306,
+      -2.448
+    ],
+    "spartanweaponry:battleaxe_copper": [
+      1355,
+      -2.84
+    ],
+    "spartanweaponry:battleaxe_diamond": [
+      903,
+      0.776
+    ],
+    "spartanweaponry:battleaxe_electrum": [
+      1348,
+      -2.784
+    ],
+    "spartanweaponry:battleaxe_gold": [
+      1440,
+      -3.52
+    ],
+    "spartanweaponry:battleaxe_invar": [
+      1264,
+      -2.112
+    ],
+    "spartanweaponry:battleaxe_iron": [
+      1327,
+      -2.616
+    ],
+    "spartanweaponry:battleaxe_lead": [
+      1330,
+      -2.64
+    ],
+    "spartanweaponry:battleaxe_netherite": [
+      728,
+      2.176
+    ],
+    "spartanweaponry:battleaxe_nickel": [
+      1342,
+      -2.736
+    ],
+    "spartanweaponry:battleaxe_platinum": [
+      1048,
+      -0.384
+    ],
+    "spartanweaponry:battleaxe_silver": [
+      1401,
+      -3.208
+    ],
+    "spartanweaponry:battleaxe_steel": [
+      1243,
+      -1.944
+    ],
+    "spartanweaponry:battleaxe_stone": [
+      1388,
+      -3.104
+    ],
+    "spartanweaponry:battleaxe_tin": [
+      1354,
+      -2.832
+    ],
+    "spartanweaponry:battleaxe_wood": [
+      1432,
+      -3.456
+    ],
+    "spartanweaponry:cestus": [
+      1411,
+      -3.288
+    ],
+    "spartanweaponry:cestus_studded": [
+      1327,
+      -2.616
+    ],
+    "spartanweaponry:club_studded": [
+      1327,
+      -2.616
+    ],
+    "spartanweaponry:club_wood": [
+      1432,
+      -3.456
+    ],
+    "spartanweaponry:dagger_bronze": [
+      1306,
+      -2.448
+    ],
+    "spartanweaponry:dagger_copper": [
+      1355,
+      -2.84
+    ],
+    "spartanweaponry:dagger_diamond": [
+      903,
+      0.776
+    ],
+    "spartanweaponry:dagger_electrum": [
+      1348,
+      -2.784
+    ],
+    "spartanweaponry:dagger_gold": [
+      1440,
+      -3.52
+    ],
+    "spartanweaponry:dagger_invar": [
+      1264,
+      -2.112
+    ],
+    "spartanweaponry:dagger_iron": [
+      1327,
+      -2.616
+    ],
+    "spartanweaponry:dagger_lead": [
+      1330,
+      -2.64
+    ],
+    "spartanweaponry:dagger_netherite": [
+      728,
+      2.176
+    ],
+    "spartanweaponry:dagger_nickel": [
+      1342,
+      -2.736
+    ],
+    "spartanweaponry:dagger_platinum": [
+      1048,
+      -0.384
+    ],
+    "spartanweaponry:dagger_silver": [
+      1401,
+      -3.208
+    ],
+    "spartanweaponry:dagger_steel": [
+      1243,
+      -1.944
+    ],
+    "spartanweaponry:dagger_stone": [
+      1388,
+      -3.104
+    ],
+    "spartanweaponry:dagger_tin": [
+      1354,
+      -2.832
+    ],
+    "spartanweaponry:dagger_wood": [
+      1432,
+      -3.456
+    ],
+    "spartanweaponry:flanged_mace_bronze": [
+      1306,
+      -2.448
+    ],
+    "spartanweaponry:flanged_mace_copper": [
+      1355,
+      -2.84
+    ],
+    "spartanweaponry:flanged_mace_diamond": [
+      903,
+      0.776
+    ],
+    "spartanweaponry:flanged_mace_electrum": [
+      1348,
+      -2.784
+    ],
+    "spartanweaponry:flanged_mace_gold": [
+      1440,
+      -3.52
+    ],
+    "spartanweaponry:flanged_mace_invar": [
+      1264,
+      -2.112
+    ],
+    "spartanweaponry:flanged_mace_iron": [
+      1327,
+      -2.616
+    ],
+    "spartanweaponry:flanged_mace_lead": [
+      1330,
+      -2.64
+    ],
+    "spartanweaponry:flanged_mace_netherite": [
+      728,
+      2.176
+    ],
+    "spartanweaponry:flanged_mace_nickel": [
+      1342,
+      -2.736
+    ],
+    "spartanweaponry:flanged_mace_platinum": [
+      1048,
+      -0.384
+    ],
+    "spartanweaponry:flanged_mace_silver": [
+      1401,
+      -3.208
+    ],
+    "spartanweaponry:flanged_mace_steel": [
+      1243,
+      -1.944
+    ],
+    "spartanweaponry:flanged_mace_stone": [
+      1388,
+      -3.104
+    ],
+    "spartanweaponry:flanged_mace_tin": [
+      1354,
+      -2.832
+    ],
+    "spartanweaponry:flanged_mace_wood": [
+      1432,
+      -3.456
+    ],
+    "spartanweaponry:glaive_bronze": [
+      1306,
+      -2.448
+    ],
+    "spartanweaponry:glaive_copper": [
+      1355,
+      -2.84
+    ],
+    "spartanweaponry:glaive_diamond": [
+      903,
+      0.776
+    ],
+    "spartanweaponry:glaive_electrum": [
+      1348,
+      -2.784
+    ],
+    "spartanweaponry:glaive_gold": [
+      1440,
+      -3.52
+    ],
+    "spartanweaponry:glaive_invar": [
+      1264,
+      -2.112
+    ],
+    "spartanweaponry:glaive_iron": [
+      1327,
+      -2.616
+    ],
+    "spartanweaponry:glaive_lead": [
+      1330,
+      -2.64
+    ],
+    "spartanweaponry:glaive_netherite": [
+      728,
+      2.176
+    ],
+    "spartanweaponry:glaive_nickel": [
+      1342,
+      -2.736
+    ],
+    "spartanweaponry:glaive_platinum": [
+      1048,
+      -0.384
+    ],
+    "spartanweaponry:glaive_silver": [
+      1401,
+      -3.208
+    ],
+    "spartanweaponry:glaive_steel": [
+      1243,
+      -1.944
+    ],
+    "spartanweaponry:glaive_stone": [
+      1388,
+      -3.104
+    ],
+    "spartanweaponry:glaive_tin": [
+      1354,
+      -2.832
+    ],
+    "spartanweaponry:glaive_wood": [
+      1432,
+      -3.456
+    ],
+    "spartanweaponry:greatsword_bronze": [
+      1306,
+      -2.448
+    ],
+    "spartanweaponry:greatsword_copper": [
+      1355,
+      -2.84
+    ],
+    "spartanweaponry:greatsword_diamond": [
+      903,
+      0.776
+    ],
+    "spartanweaponry:greatsword_electrum": [
+      1348,
+      -2.784
+    ],
+    "spartanweaponry:greatsword_gold": [
+      1440,
+      -3.52
+    ],
+    "spartanweaponry:greatsword_invar": [
+      1264,
+      -2.112
+    ],
+    "spartanweaponry:greatsword_iron": [
+      1327,
+      -2.616
+    ],
+    "spartanweaponry:greatsword_lead": [
+      1330,
+      -2.64
+    ],
+    "spartanweaponry:greatsword_netherite": [
+      728,
+      2.176
+    ],
+    "spartanweaponry:greatsword_nickel": [
+      1342,
+      -2.736
+    ],
+    "spartanweaponry:greatsword_platinum": [
+      1048,
+      -0.384
+    ],
+    "spartanweaponry:greatsword_silver": [
+      1401,
+      -3.208
+    ],
+    "spartanweaponry:greatsword_steel": [
+      1243,
+      -1.944
+    ],
+    "spartanweaponry:greatsword_stone": [
+      1388,
+      -3.104
+    ],
+    "spartanweaponry:greatsword_tin": [
+      1354,
+      -2.832
+    ],
+    "spartanweaponry:greatsword_wood": [
+      1432,
+      -3.456
+    ],
+    "spartanweaponry:halberd_bronze": [
+      1306,
+      -2.448
+    ],
+    "spartanweaponry:halberd_copper": [
+      1355,
+      -2.84
+    ],
+    "spartanweaponry:halberd_diamond": [
+      903,
+      0.776
+    ],
+    "spartanweaponry:halberd_electrum": [
+      1348,
+      -2.784
+    ],
+    "spartanweaponry:halberd_gold": [
+      1440,
+      -3.52
+    ],
+    "spartanweaponry:halberd_invar": [
+      1264,
+      -2.112
+    ],
+    "spartanweaponry:halberd_iron": [
+      1327,
+      -2.616
+    ],
+    "spartanweaponry:halberd_lead": [
+      1330,
+      -2.64
+    ],
+    "spartanweaponry:halberd_netherite": [
+      728,
+      2.176
+    ],
+    "spartanweaponry:halberd_nickel": [
+      1342,
+      -2.736
+    ],
+    "spartanweaponry:halberd_platinum": [
+      1048,
+      -0.384
+    ],
+    "spartanweaponry:halberd_silver": [
+      1401,
+      -3.208
+    ],
+    "spartanweaponry:halberd_steel": [
+      1243,
+      -1.944
+    ],
+    "spartanweaponry:halberd_stone": [
+      1388,
+      -3.104
+    ],
+    "spartanweaponry:halberd_tin": [
+      1354,
+      -2.832
+    ],
+    "spartanweaponry:halberd_wood": [
+      1432,
+      -3.456
+    ],
+    "spartanweaponry:hammer_bronze": [
+      1306,
+      -2.448
+    ],
+    "spartanweaponry:hammer_copper": [
+      1355,
+      -2.84
+    ],
+    "spartanweaponry:hammer_diamond": [
+      903,
+      0.776
+    ],
+    "spartanweaponry:hammer_electrum": [
+      1348,
+      -2.784
+    ],
+    "spartanweaponry:hammer_gold": [
+      1440,
+      -3.52
+    ],
+    "spartanweaponry:hammer_invar": [
+      1264,
+      -2.112
+    ],
+    "spartanweaponry:hammer_iron": [
+      1327,
+      -2.616
+    ],
+    "spartanweaponry:hammer_lead": [
+      1330,
+      -2.64
+    ],
+    "spartanweaponry:hammer_netherite": [
+      728,
+      2.176
+    ],
+    "spartanweaponry:hammer_nickel": [
+      1342,
+      -2.736
+    ],
+    "spartanweaponry:hammer_platinum": [
+      1048,
+      -0.384
+    ],
+    "spartanweaponry:hammer_silver": [
+      1401,
+      -3.208
+    ],
+    "spartanweaponry:hammer_steel": [
+      1243,
+      -1.944
+    ],
+    "spartanweaponry:hammer_stone": [
+      1388,
+      -3.104
+    ],
+    "spartanweaponry:hammer_tin": [
+      1354,
+      -2.832
+    ],
+    "spartanweaponry:hammer_wood": [
+      1432,
+      -3.456
+    ],
+    "spartanweaponry:heavy_crossbow_bronze": [
+      1000,
+      0.0
+    ],
+    "spartanweaponry:heavy_crossbow_copper": [
+      1000,
+      0.0
+    ],
+    "spartanweaponry:heavy_crossbow_diamond": [
+      1000,
+      0.0
+    ],
+    "spartanweaponry:heavy_crossbow_electrum": [
+      1000,
+      0.0
+    ],
+    "spartanweaponry:heavy_crossbow_gold": [
+      1000,
+      0.0
+    ],
+    "spartanweaponry:heavy_crossbow_invar": [
+      1000,
+      0.0
+    ],
+    "spartanweaponry:heavy_crossbow_iron": [
+      1000,
+      0.0
+    ],
+    "spartanweaponry:heavy_crossbow_lead": [
+      1000,
+      0.0
+    ],
+    "spartanweaponry:heavy_crossbow_leather": [
+      1000,
+      0.0
+    ],
+    "spartanweaponry:heavy_crossbow_netherite": [
+      1000,
+      0.0
+    ],
+    "spartanweaponry:heavy_crossbow_nickel": [
+      1000,
+      0.0
+    ],
+    "spartanweaponry:heavy_crossbow_platinum": [
+      1000,
+      0.0
+    ],
+    "spartanweaponry:heavy_crossbow_silver": [
+      1000,
+      0.0
+    ],
+    "spartanweaponry:heavy_crossbow_steel": [
+      1000,
+      0.0
+    ],
+    "spartanweaponry:heavy_crossbow_tin": [
+      1000,
+      0.0
+    ],
+    "spartanweaponry:heavy_crossbow_wood": [
+      1000,
+      0.0
+    ],
+    "spartanweaponry:katana_bronze": [
+      1306,
+      -2.448
+    ],
+    "spartanweaponry:katana_copper": [
+      1355,
+      -2.84
+    ],
+    "spartanweaponry:katana_diamond": [
+      903,
+      0.776
+    ],
+    "spartanweaponry:katana_electrum": [
+      1348,
+      -2.784
+    ],
+    "spartanweaponry:katana_gold": [
+      1440,
+      -3.52
+    ],
+    "spartanweaponry:katana_invar": [
+      1264,
+      -2.112
+    ],
+    "spartanweaponry:katana_iron": [
+      1327,
+      -2.616
+    ],
+    "spartanweaponry:katana_lead": [
+      1330,
+      -2.64
+    ],
+    "spartanweaponry:katana_netherite": [
+      728,
+      2.176
+    ],
+    "spartanweaponry:katana_nickel": [
+      1342,
+      -2.736
+    ],
+    "spartanweaponry:katana_platinum": [
+      1048,
+      -0.384
+    ],
+    "spartanweaponry:katana_silver": [
+      1401,
+      -3.208
+    ],
+    "spartanweaponry:katana_steel": [
+      1243,
+      -1.944
+    ],
+    "spartanweaponry:katana_stone": [
+      1388,
+      -3.104
+    ],
+    "spartanweaponry:katana_tin": [
+      1354,
+      -2.832
+    ],
+    "spartanweaponry:katana_wood": [
+      1432,
+      -3.456
+    ],
+    "spartanweaponry:lance_bronze": [
+      1306,
+      -2.448
+    ],
+    "spartanweaponry:lance_copper": [
+      1355,
+      -2.84
+    ],
+    "spartanweaponry:lance_diamond": [
+      903,
+      0.776
+    ],
+    "spartanweaponry:lance_electrum": [
+      1348,
+      -2.784
+    ],
+    "spartanweaponry:lance_gold": [
+      1440,
+      -3.52
+    ],
+    "spartanweaponry:lance_invar": [
+      1264,
+      -2.112
+    ],
+    "spartanweaponry:lance_iron": [
+      1327,
+      -2.616
+    ],
+    "spartanweaponry:lance_lead": [
+      1330,
+      -2.64
+    ],
+    "spartanweaponry:lance_netherite": [
+      728,
+      2.176
+    ],
+    "spartanweaponry:lance_nickel": [
+      1342,
+      -2.736
+    ],
+    "spartanweaponry:lance_platinum": [
+      1048,
+      -0.384
+    ],
+    "spartanweaponry:lance_silver": [
+      1401,
+      -3.208
+    ],
+    "spartanweaponry:lance_steel": [
+      1243,
+      -1.944
+    ],
+    "spartanweaponry:lance_stone": [
+      1388,
+      -3.104
+    ],
+    "spartanweaponry:lance_tin": [
+      1354,
+      -2.832
+    ],
+    "spartanweaponry:lance_wood": [
+      1432,
+      -3.456
+    ],
+    "spartanweaponry:longbow_bronze": [
+      980,
+      0.0
+    ],
+    "spartanweaponry:longbow_copper": [
+      1100,
+      0.0
+    ],
+    "spartanweaponry:longbow_diamond": [
+      1,
+      0.0
+    ],
+    "spartanweaponry:longbow_electrum": [
+      1120,
+      0.0
+    ],
+    "spartanweaponry:longbow_gold": [
+      1268,
+      0.0
+    ],
+    "spartanweaponry:longbow_invar": [
+      860,
+      0.0
+    ],
+    "spartanweaponry:longbow_iron": [
+      1050,
+      0.0
+    ],
+    "spartanweaponry:longbow_lead": [
+      1060,
+      0.0
+    ],
+    "spartanweaponry:longbow_leather": [
+      1172,
+      0.0
+    ],
+    "spartanweaponry:longbow_netherite": [
+      1,
+      0.0
+    ],
+    "spartanweaponry:longbow_nickel": [
+      1100,
+      0.0
+    ],
+    "spartanweaponry:longbow_platinum": [
+      276,
+      0.0
+    ],
+    "spartanweaponry:longbow_silver": [
+      1252,
+      0.0
+    ],
+    "spartanweaponry:longbow_steel": [
+      820,
+      0.0
+    ],
+    "spartanweaponry:longbow_tin": [
+      1120,
+      0.0
+    ],
+    "spartanweaponry:longbow_wood": [
+      1241,
+      0.0
+    ],
+    "spartanweaponry:longsword_bronze": [
+      1306,
+      -2.448
+    ],
+    "spartanweaponry:longsword_copper": [
+      1355,
+      -2.84
+    ],
+    "spartanweaponry:longsword_diamond": [
+      903,
+      0.776
+    ],
+    "spartanweaponry:longsword_electrum": [
+      1348,
+      -2.784
+    ],
+    "spartanweaponry:longsword_gold": [
+      1440,
+      -3.52
+    ],
+    "spartanweaponry:longsword_invar": [
+      1264,
+      -2.112
+    ],
+    "spartanweaponry:longsword_iron": [
+      1327,
+      -2.616
+    ],
+    "spartanweaponry:longsword_lead": [
+      1330,
+      -2.64
+    ],
+    "spartanweaponry:longsword_netherite": [
+      728,
+      2.176
+    ],
+    "spartanweaponry:longsword_nickel": [
+      1342,
+      -2.736
+    ],
+    "spartanweaponry:longsword_platinum": [
+      1048,
+      -0.384
+    ],
+    "spartanweaponry:longsword_silver": [
+      1401,
+      -3.208
+    ],
+    "spartanweaponry:longsword_steel": [
+      1243,
+      -1.944
+    ],
+    "spartanweaponry:longsword_stone": [
+      1388,
+      -3.104
+    ],
+    "spartanweaponry:longsword_tin": [
+      1354,
+      -2.832
+    ],
+    "spartanweaponry:longsword_wood": [
+      1432,
+      -3.456
+    ],
+    "spartanweaponry:parrying_dagger_bronze": [
+      1306,
+      -2.448
+    ],
+    "spartanweaponry:parrying_dagger_copper": [
+      1355,
+      -2.84
+    ],
+    "spartanweaponry:parrying_dagger_diamond": [
+      903,
+      0.776
+    ],
+    "spartanweaponry:parrying_dagger_electrum": [
+      1348,
+      -2.784
+    ],
+    "spartanweaponry:parrying_dagger_gold": [
+      1440,
+      -3.52
+    ],
+    "spartanweaponry:parrying_dagger_invar": [
+      1264,
+      -2.112
+    ],
+    "spartanweaponry:parrying_dagger_iron": [
+      1327,
+      -2.616
+    ],
+    "spartanweaponry:parrying_dagger_lead": [
+      1330,
+      -2.64
+    ],
+    "spartanweaponry:parrying_dagger_netherite": [
+      728,
+      2.176
+    ],
+    "spartanweaponry:parrying_dagger_nickel": [
+      1342,
+      -2.736
+    ],
+    "spartanweaponry:parrying_dagger_platinum": [
+      1048,
+      -0.384
+    ],
+    "spartanweaponry:parrying_dagger_silver": [
+      1401,
+      -3.208
+    ],
+    "spartanweaponry:parrying_dagger_steel": [
+      1243,
+      -1.944
+    ],
+    "spartanweaponry:parrying_dagger_stone": [
+      1388,
+      -3.104
+    ],
+    "spartanweaponry:parrying_dagger_tin": [
+      1354,
+      -2.832
+    ],
+    "spartanweaponry:parrying_dagger_wood": [
+      1432,
+      -3.456
+    ],
+    "spartanweaponry:pike_bronze": [
+      1306,
+      -2.448
+    ],
+    "spartanweaponry:pike_copper": [
+      1355,
+      -2.84
+    ],
+    "spartanweaponry:pike_diamond": [
+      903,
+      0.776
+    ],
+    "spartanweaponry:pike_electrum": [
+      1348,
+      -2.784
+    ],
+    "spartanweaponry:pike_gold": [
+      1440,
+      -3.52
+    ],
+    "spartanweaponry:pike_invar": [
+      1264,
+      -2.112
+    ],
+    "spartanweaponry:pike_iron": [
+      1327,
+      -2.616
+    ],
+    "spartanweaponry:pike_lead": [
+      1330,
+      -2.64
+    ],
+    "spartanweaponry:pike_netherite": [
+      728,
+      2.176
+    ],
+    "spartanweaponry:pike_nickel": [
+      1342,
+      -2.736
+    ],
+    "spartanweaponry:pike_platinum": [
+      1048,
+      -0.384
+    ],
+    "spartanweaponry:pike_silver": [
+      1401,
+      -3.208
+    ],
+    "spartanweaponry:pike_steel": [
+      1243,
+      -1.944
+    ],
+    "spartanweaponry:pike_stone": [
+      1388,
+      -3.104
+    ],
+    "spartanweaponry:pike_tin": [
+      1354,
+      -2.832
+    ],
+    "spartanweaponry:pike_wood": [
+      1432,
+      -3.456
+    ],
+    "spartanweaponry:quarterstaff_bronze": [
+      1306,
+      -2.448
+    ],
+    "spartanweaponry:quarterstaff_copper": [
+      1355,
+      -2.84
+    ],
+    "spartanweaponry:quarterstaff_diamond": [
+      903,
+      0.776
+    ],
+    "spartanweaponry:quarterstaff_electrum": [
+      1348,
+      -2.784
+    ],
+    "spartanweaponry:quarterstaff_gold": [
+      1440,
+      -3.52
+    ],
+    "spartanweaponry:quarterstaff_invar": [
+      1264,
+      -2.112
+    ],
+    "spartanweaponry:quarterstaff_iron": [
+      1327,
+      -2.616
+    ],
+    "spartanweaponry:quarterstaff_lead": [
+      1330,
+      -2.64
+    ],
+    "spartanweaponry:quarterstaff_netherite": [
+      728,
+      2.176
+    ],
+    "spartanweaponry:quarterstaff_nickel": [
+      1342,
+      -2.736
+    ],
+    "spartanweaponry:quarterstaff_platinum": [
+      1048,
+      -0.384
+    ],
+    "spartanweaponry:quarterstaff_silver": [
+      1401,
+      -3.208
+    ],
+    "spartanweaponry:quarterstaff_steel": [
+      1243,
+      -1.944
+    ],
+    "spartanweaponry:quarterstaff_stone": [
+      1388,
+      -3.104
+    ],
+    "spartanweaponry:quarterstaff_tin": [
+      1354,
+      -2.832
+    ],
+    "spartanweaponry:quarterstaff_wood": [
+      1432,
+      -3.456
+    ],
+    "spartanweaponry:rapier_bronze": [
+      1306,
+      -2.448
+    ],
+    "spartanweaponry:rapier_copper": [
+      1355,
+      -2.84
+    ],
+    "spartanweaponry:rapier_diamond": [
+      903,
+      0.776
+    ],
+    "spartanweaponry:rapier_electrum": [
+      1348,
+      -2.784
+    ],
+    "spartanweaponry:rapier_gold": [
+      1440,
+      -3.52
+    ],
+    "spartanweaponry:rapier_invar": [
+      1264,
+      -2.112
+    ],
+    "spartanweaponry:rapier_iron": [
+      1327,
+      -2.616
+    ],
+    "spartanweaponry:rapier_lead": [
+      1330,
+      -2.64
+    ],
+    "spartanweaponry:rapier_netherite": [
+      728,
+      2.176
+    ],
+    "spartanweaponry:rapier_nickel": [
+      1342,
+      -2.736
+    ],
+    "spartanweaponry:rapier_platinum": [
+      1048,
+      -0.384
+    ],
+    "spartanweaponry:rapier_silver": [
+      1401,
+      -3.208
+    ],
+    "spartanweaponry:rapier_steel": [
+      1243,
+      -1.944
+    ],
+    "spartanweaponry:rapier_stone": [
+      1388,
+      -3.104
+    ],
+    "spartanweaponry:rapier_tin": [
+      1354,
+      -2.832
+    ],
+    "spartanweaponry:rapier_wood": [
+      1432,
+      -3.456
+    ],
+    "spartanweaponry:saber_bronze": [
+      1306,
+      -2.448
+    ],
+    "spartanweaponry:saber_copper": [
+      1355,
+      -2.84
+    ],
+    "spartanweaponry:saber_diamond": [
+      903,
+      0.776
+    ],
+    "spartanweaponry:saber_electrum": [
+      1348,
+      -2.784
+    ],
+    "spartanweaponry:saber_gold": [
+      1440,
+      -3.52
+    ],
+    "spartanweaponry:saber_invar": [
+      1264,
+      -2.112
+    ],
+    "spartanweaponry:saber_iron": [
+      1327,
+      -2.616
+    ],
+    "spartanweaponry:saber_lead": [
+      1330,
+      -2.64
+    ],
+    "spartanweaponry:saber_netherite": [
+      728,
+      2.176
+    ],
+    "spartanweaponry:saber_nickel": [
+      1342,
+      -2.736
+    ],
+    "spartanweaponry:saber_platinum": [
+      1048,
+      -0.384
+    ],
+    "spartanweaponry:saber_silver": [
+      1401,
+      -3.208
+    ],
+    "spartanweaponry:saber_steel": [
+      1243,
+      -1.944
+    ],
+    "spartanweaponry:saber_stone": [
+      1388,
+      -3.104
+    ],
+    "spartanweaponry:saber_tin": [
+      1354,
+      -2.832
+    ],
+    "spartanweaponry:saber_wood": [
+      1432,
+      -3.456
+    ],
+    "spartanweaponry:scythe_bronze": [
+      1306,
+      -2.448
+    ],
+    "spartanweaponry:scythe_copper": [
+      1355,
+      -2.84
+    ],
+    "spartanweaponry:scythe_diamond": [
+      903,
+      0.776
+    ],
+    "spartanweaponry:scythe_electrum": [
+      1348,
+      -2.784
+    ],
+    "spartanweaponry:scythe_gold": [
+      1440,
+      -3.52
+    ],
+    "spartanweaponry:scythe_invar": [
+      1264,
+      -2.112
+    ],
+    "spartanweaponry:scythe_iron": [
+      1327,
+      -2.616
+    ],
+    "spartanweaponry:scythe_lead": [
+      1330,
+      -2.64
+    ],
+    "spartanweaponry:scythe_netherite": [
+      728,
+      2.176
+    ],
+    "spartanweaponry:scythe_nickel": [
+      1342,
+      -2.736
+    ],
+    "spartanweaponry:scythe_platinum": [
+      1048,
+      -0.384
+    ],
+    "spartanweaponry:scythe_silver": [
+      1401,
+      -3.208
+    ],
+    "spartanweaponry:scythe_steel": [
+      1243,
+      -1.944
+    ],
+    "spartanweaponry:scythe_stone": [
+      1388,
+      -3.104
+    ],
+    "spartanweaponry:scythe_tin": [
+      1354,
+      -2.832
+    ],
+    "spartanweaponry:scythe_wood": [
+      1432,
+      -3.456
+    ],
+    "spartanweaponry:spear_bronze": [
+      1306,
+      -2.448
+    ],
+    "spartanweaponry:spear_copper": [
+      1355,
+      -2.84
+    ],
+    "spartanweaponry:spear_diamond": [
+      903,
+      0.776
+    ],
+    "spartanweaponry:spear_electrum": [
+      1348,
+      -2.784
+    ],
+    "spartanweaponry:spear_gold": [
+      1440,
+      -3.52
+    ],
+    "spartanweaponry:spear_invar": [
+      1264,
+      -2.112
+    ],
+    "spartanweaponry:spear_iron": [
+      1327,
+      -2.616
+    ],
+    "spartanweaponry:spear_lead": [
+      1330,
+      -2.64
+    ],
+    "spartanweaponry:spear_netherite": [
+      728,
+      2.176
+    ],
+    "spartanweaponry:spear_nickel": [
+      1342,
+      -2.736
+    ],
+    "spartanweaponry:spear_platinum": [
+      1048,
+      -0.384
+    ],
+    "spartanweaponry:spear_silver": [
+      1401,
+      -3.208
+    ],
+    "spartanweaponry:spear_steel": [
+      1243,
+      -1.944
+    ],
+    "spartanweaponry:spear_stone": [
+      1388,
+      -3.104
+    ],
+    "spartanweaponry:spear_tin": [
+      1354,
+      -2.832
+    ],
+    "spartanweaponry:spear_wood": [
+      1432,
+      -3.456
+    ],
+    "spartanweaponry:warhammer_bronze": [
+      1306,
+      -2.448
+    ],
+    "spartanweaponry:warhammer_copper": [
+      1355,
+      -2.84
+    ],
+    "spartanweaponry:warhammer_diamond": [
+      903,
+      0.776
+    ],
+    "spartanweaponry:warhammer_electrum": [
+      1348,
+      -2.784
+    ],
+    "spartanweaponry:warhammer_gold": [
+      1440,
+      -3.52
+    ],
+    "spartanweaponry:warhammer_invar": [
+      1264,
+      -2.112
+    ],
+    "spartanweaponry:warhammer_iron": [
+      1327,
+      -2.616
+    ],
+    "spartanweaponry:warhammer_lead": [
+      1330,
+      -2.64
+    ],
+    "spartanweaponry:warhammer_netherite": [
+      728,
+      2.176
+    ],
+    "spartanweaponry:warhammer_nickel": [
+      1342,
+      -2.736
+    ],
+    "spartanweaponry:warhammer_platinum": [
+      1048,
+      -0.384
+    ],
+    "spartanweaponry:warhammer_silver": [
+      1401,
+      -3.208
+    ],
+    "spartanweaponry:warhammer_steel": [
+      1243,
+      -1.944
+    ],
+    "spartanweaponry:warhammer_stone": [
+      1388,
+      -3.104
+    ],
+    "spartanweaponry:warhammer_tin": [
+      1354,
+      -2.832
+    ],
+    "spartanweaponry:warhammer_wood": [
+      1432,
+      -3.456
+    ],
+    "swem:amethyst_bow": [
+      1300,
+      0.0
+    ],
+    "swem:amethyst_sword": [
+      1,
+      9.592
+    ],
+    "zombie_extreme:baseball_bat": [
+      1242,
+      -1.936
+    ],
+    "zombie_extreme:bronze_axe": [
+      1296,
+      -2.368
+    ],
+    "zombie_extreme:butcher_knife": [
+      1118,
+      -0.944
+    ],
+    "zombie_extreme:buzz_killer": [
+      1,
+      19.608
+    ],
+    "zombie_extreme:cleaver": [
+      1269,
+      -2.152
+    ],
+    "zombie_extreme:crowbar": [
+      1184,
+      -1.472
+    ],
+    "zombie_extreme:electric_katana": [
+      1,
+      11.592
+    ],
+    "zombie_extreme:electro_machete": [
+      283,
+      5.736
+    ],
+    "zombie_extreme:fireaxe": [
+      1255,
+      -2.04
+    ],
+    "zombie_extreme:fittings": [
+      1147,
+      -1.176
+    ],
+    "zombie_extreme:frying_pan": [
+      1255,
+      -2.04
+    ],
+    "zombie_extreme:golf_club": [
+      1192,
+      -1.536
+    ],
+    "zombie_extreme:katana": [
+      671,
+      2.632
+    ],
+    "zombie_extreme:kitchen_knife": [
+      1342,
+      -2.736
+    ],
+    "zombie_extreme:last_hope": [
+      1,
+      13.768
+    ],
+    "zombie_extreme:m_9_knife": [
+      793,
+      1.656
+    ],
+    "zombie_extreme:machete": [
+      862,
+      1.104
+    ],
+    "zombie_extreme:military_machete": [
+      689,
+      2.488
+    ],
+    "zombie_extreme:modern_axe": [
+      1156,
+      -1.248
+    ],
+    "zombie_extreme:modern_love": [
+      986,
+      0.112
+    ],
+    "zombie_extreme:pipe": [
+      1222,
+      -1.776
+    ],
+    "zombie_extreme:police_baton": [
+      1233,
+      -1.864
+    ],
+    "zombie_extreme:steel_axe": [
+      1193,
+      -1.544
+    ],
+    "zombie_extreme:steel_sledgehammer": [
+      292,
+      5.664
+    ],
+    "zombie_extreme:stun_stick": [
+      1162,
+      -1.296
+    ],
+    "zombie_extreme:titan_axe": [
+      1045,
+      -0.36
+    ],
+    "zombie_extreme:wrench": [
+      1164,
+      -1.312
+    ]
+  },
+  "OFFHAND": {
+    "minecraft:ender_pearl": [
+      1100,
+      0.0
+    ],
+    "minecraft:flint_and_steel": [
+      1200,
+      0.0
+    ],
+    "minecraft:lava_bucket": [
+      900,
+      0.0
+    ],
+    "minecraft:shield": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_basic_bronze": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_basic_constantan": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_basic_copper": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_basic_diamond": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_basic_electrum": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_basic_gold": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_basic_invar": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_basic_iron": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_basic_lead": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_basic_netherite": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_basic_nickel": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_basic_obsidian": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_basic_platinum": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_basic_silver": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_basic_steel": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_basic_stone": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_basic_tin": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_basic_wood": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_botania_elementium": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_botania_manasteel": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_botania_terrasteel": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_mekanism_lapis_lazuli": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_mekanism_osmium": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_mekanism_powered_advanced": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_mekanism_powered_basic": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_mekanism_powered_elite": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_mekanism_powered_ultimate": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_mekanism_refined_glowstone": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_mekanism_refined_obsidian": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_tower_bronze": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_tower_constantan": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_tower_copper": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_tower_diamond": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_tower_electrum": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_tower_gold": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_tower_invar": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_tower_iron": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_tower_lead": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_tower_netherite": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_tower_nickel": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_tower_obsidian": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_tower_platinum": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_tower_silver": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_tower_steel": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_tower_stone": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_tower_tin": [
+      1350,
+      0.0
+    ],
+    "spartanshields:shield_tower_wood": [
+      1350,
+      0.0
+    ],
+    "swem:amethyst_shield": [
+      1350,
+      0.0
+    ]
+  },
+  "FEET": {
+    "accuratearmor:assault_armor_blk_boots": [
+      1,
+      14.712
+    ],
+    "accuratearmor:assault_armor_brw_boots": [
+      1,
+      14.712
+    ],
+    "accuratearmor:assault_armor_grn_boots": [
+      1,
+      14.712
+    ],
+    "accuratearmor:bone_plate_armor_boots": [
+      1342,
+      -2.736
+    ],
+    "accuratearmor:dragonscale_armor_boots": [
+      256,
+      5.952
+    ],
+    "accuratearmor:flak_armor_blk_boots": [
+      573,
+      3.416
+    ],
+    "accuratearmor:flak_armor_boots": [
+      573,
+      3.416
+    ],
+    "accuratearmor:goldened_iron_plate_armor_boots": [
+      674,
+      2.608
+    ],
+    "accuratearmor:heavy_bone_plate_armor_boots": [
+      1260,
+      -2.08
+    ],
+    "accuratearmor:heavy_diamond_plate_armor_boots": [
+      1,
+      9.496
+    ],
+    "accuratearmor:heavy_dragon_plate_armor_boots": [
+      1,
+      14.008
+    ],
+    "accuratearmor:heavy_iron_plate_armor_boots": [
+      347,
+      5.224
+    ],
+    "accuratearmor:heavy_nezerit_plate_armor_boots": [
+      1,
+      10.064
+    ],
+    "accuratearmor:heavy_steel_plate_armor_boots": [
+      288,
+      5.696
+    ],
+    "accuratearmor:infantry_armor_boots": [
+      68,
+      7.456
+    ],
+    "accuratearmor:infantry_armor_plain_camo_boots": [
+      68,
+      7.456
+    ],
+    "accuratearmor:infantry_armor_sand_boots": [
+      68,
+      7.456
+    ],
+    "accuratearmor:infantry_armor_sand_camo_boots": [
+      68,
+      7.456
+    ],
+    "accuratearmor:infantry_armor_urban_a_boots": [
+      68,
+      7.456
+    ],
+    "accuratearmor:infantry_armor_urban_boots": [
+      68,
+      7.456
+    ],
+    "accuratearmor:iron_plate_armor_boots": [
+      674,
+      2.608
+    ],
+    "accuratearmor:kersey_boots_boots": [
+      1377,
+      -3.016
+    ],
+    "accuratearmor:linen_armor_boots": [
+      1359,
+      -2.872
+    ],
+    "accuratearmor:linothorax_armor_red_boots": [
+      1221,
+      -1.768
+    ],
+    "accuratearmor:mage_armor_boots": [
+      1111,
+      -0.888
+    ],
+    "accuratearmor:quilted_fur_armor_boots": [
+      1130,
+      -1.04
+    ],
+    "accuratearmor:quilted_wool_armor_boots": [
+      1107,
+      -0.856
+    ],
+    "accuratearmor:quilted_wool_armor_green_boots": [
+      1107,
+      -0.856
+    ],
+    "accuratearmor:quilted_wool_armor_white_boots": [
+      1091,
+      -0.728
+    ],
+    "accuratearmor:scale_armor_boots": [
+      698,
+      2.416
+    ],
+    "accuratearmor:steel_plate_armor_boots": [
+      425,
+      4.6
+    ],
+    "accuratearmor:steel_plate_armor_red_boots": [
+      425,
+      4.6
+    ],
+    "accuratearmor:steel_plate_armor_upgrade_boots": [
+      280,
+      5.76
+    ],
+    "accuratearmor:upgraded_iron_plate_armor_boots": [
+      671,
+      2.632
+    ],
+    "accuratearmor:upgraded_quilted_wool_armor_boots": [
+      1070,
+      -0.56
+    ],
+    "accuratearmor:upgraded_quilted_wool_armor_grn_boots": [
+      1070,
+      -0.56
+    ],
+    "accuratearmor:upgraded_quilted_wool_wht_armor_boots": [
+      1054,
+      -0.432
+    ],
+    "accuratearmor:village_clothes_boots": [
+      1176,
+      -1.408
+    ],
+    "accuratearmor:warrior_chainmail_armor_boots": [
+      743,
+      2.056
+    ],
+    "accuratearmor:winter_leather_armor_boots": [
+      1113,
+      -0.904
+    ],
+    "cloudboots:cloud_boots": [
+      1,
+      8.84
+    ],
+    "create:diving_boots": [
+      1141,
+      -1.128
+    ],
+    "lrarmor:armored_chemical_feet": [
+      751,
+      1.992
+    ],
+    "lrarmor:attacker_feet": [
+      315,
+      5.48
+    ],
+    "lrarmor:chemical_protective_feet": [
+      751,
+      1.992
+    ],
+    "lrarmor:defender_feet": [
+      1,
+      8.936
+    ],
+    "lrarmor:medical_feet": [
+      516,
+      3.872
+    ],
+    "lrarmor:scout_feet": [
+      625,
+      3.0
+    ],
+    "lrarmor:sniper_feet": [
+      751,
+      1.992
+    ],
+    "minecraft:chainmail_boots": [
+      1098,
+      -0.784
+    ],
+    "minecraft:diamond_boots": [
+      444,
+      4.448
+    ],
+    "minecraft:golden_boots": [
+      1201,
+      -1.608
+    ],
+    "minecraft:iron_boots": [
+      954,
+      0.368
+    ],
+    "minecraft:leather_boots": [
+      1356,
+      -2.848
+    ],
+    "minecraft:netherite_boots": [
+      361,
+      5.112
+    ],
+    "pretaccraft:combat_armor_boots": [
+      1,
+      11.2
+    ],
+    "pretaccraft:heavy_armor_boots": [
+      1,
+      15.384
+    ],
+    "pretaccraft:o_old_armor_boots": [
+      627,
+      2.984
+    ],
+    "pretaccraft:operator_armor_boots": [
+      891,
+      0.872
+    ],
+    "pretaccraft:tactical_armor_boots": [
+      1,
+      9.136
+    ],
+    "swem:amethyst_riding_boots": [
+      1,
+      22.824
+    ],
+    "swem:diamond_riding_boots": [
+      309,
+      5.528
+    ],
+    "swem:glow_riding_boots": [
+      853,
+      1.176
+    ],
+    "swem:gold_riding_boots": [
+      510,
+      3.92
+    ],
+    "swem:iron_riding_boots": [
+      570,
+      3.44
+    ],
+    "swem:leather_riding_boots": [
+      902,
+      0.784
+    ],
+    "zombie_extreme:camouflage_suit_forest_boots": [
+      1063,
+      -0.504
+    ],
+    "zombie_extreme:combat_armor_boots": [
+      1,
+      9.728
+    ],
+    "zombie_extreme:exo_suit_boots": [
+      1,
+      28.16
+    ],
+    "zombie_extreme:hazmat_suit_boots": [
+      444,
+      4.448
+    ],
+    "zombie_extreme:juggernaut_suit_boots": [
+      1,
+      18.536
+    ],
+    "zombie_extreme:military_suit_boots": [
+      1,
+      8.072
+    ],
+    "zombie_extreme:swat_suit_boots": [
+      439,
+      4.488
+    ]
+  },
+  "LEGS": {
+    "accuratearmor:army_camo_forest_a_leggings": [
+      1254,
+      -2.032
+    ],
+    "accuratearmor:army_camo_forest_b_leggings": [
+      1254,
+      -2.032
+    ],
+    "accuratearmor:army_camo_forest_c_leggings": [
+      1254,
+      -2.032
+    ],
+    "accuratearmor:army_camo_forest_leggings": [
+      1254,
+      -2.032
+    ],
+    "accuratearmor:army_camo_plain_leggings": [
+      1254,
+      -2.032
+    ],
+    "accuratearmor:army_camo_snow_leggings": [
+      1254,
+      -2.032
+    ],
+    "accuratearmor:assault_armor_blk_leggings": [
+      1,
+      14.712
+    ],
+    "accuratearmor:assault_armor_brw_leggings": [
+      1,
+      14.712
+    ],
+    "accuratearmor:assault_armor_grn_leggings": [
+      1,
+      14.712
+    ],
+    "accuratearmor:bone_plate_armor_leggings": [
+      1342,
+      -2.736
+    ],
+    "accuratearmor:camo_forest_a_leggings": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:camo_forest_b_leggings": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:camo_forest_c_leggings": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:camo_forest_leggings": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:camo_plain_a_leggings": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:camo_plain_leggings": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:camo_sand_leggings": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:camo_snow_leggings": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:dragonscale_armor_leggings": [
+      256,
+      5.952
+    ],
+    "accuratearmor:field_camo_forest_a_leggings": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_forest_b_leggings": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_forest_c_leggings": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_forest_leggings": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_plain_a_leggings": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_plain_leggings": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_sand_leggings": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_urban_a_leggings": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_urban_b_leggings": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_urban_leggings": [
+      781,
+      1.752
+    ],
+    "accuratearmor:flak_armor_blk_leggings": [
+      573,
+      3.416
+    ],
+    "accuratearmor:flak_armor_leggings": [
+      573,
+      3.416
+    ],
+    "accuratearmor:goldened_iron_plate_armor_leggings": [
+      674,
+      2.608
+    ],
+    "accuratearmor:heavy_bone_plate_armor_leggings": [
+      1260,
+      -2.08
+    ],
+    "accuratearmor:heavy_diamond_plate_armor_leggings": [
+      1,
+      9.496
+    ],
+    "accuratearmor:heavy_dragon_plate_armor_leggings": [
+      1,
+      14.008
+    ],
+    "accuratearmor:heavy_iron_plate_armor_leggings": [
+      347,
+      5.224
+    ],
+    "accuratearmor:heavy_nezerit_plate_armor_leggings": [
+      1,
+      10.064
+    ],
+    "accuratearmor:heavy_quilted_armor_leggings": [
+      1213,
+      -1.704
+    ],
+    "accuratearmor:heavy_steel_plate_armor_leggings": [
+      288,
+      5.696
+    ],
+    "accuratearmor:infantry_armor_leggings": [
+      68,
+      7.456
+    ],
+    "accuratearmor:infantry_armor_plain_camo_leggings": [
+      68,
+      7.456
+    ],
+    "accuratearmor:infantry_armor_sand_camo_leggings": [
+      68,
+      7.456
+    ],
+    "accuratearmor:infantry_armor_sand_leggings": [
+      68,
+      7.456
+    ],
+    "accuratearmor:infantry_armor_urban_a_leggings": [
+      68,
+      7.456
+    ],
+    "accuratearmor:infantry_armor_urban_leggings": [
+      68,
+      7.456
+    ],
+    "accuratearmor:iron_plate_armor_leggings": [
+      674,
+      2.608
+    ],
+    "accuratearmor:linen_armor_leggings": [
+      1359,
+      -2.872
+    ],
+    "accuratearmor:linothorax_armor_blu_leggings": [
+      1221,
+      -1.768
+    ],
+    "accuratearmor:linothorax_armor_grn_leggings": [
+      1221,
+      -1.768
+    ],
+    "accuratearmor:linothorax_armor_pur_leggings": [
+      1221,
+      -1.768
+    ],
+    "accuratearmor:linothorax_armor_red_leggings": [
+      1221,
+      -1.768
+    ],
+    "accuratearmor:mage_armor_leggings": [
+      1111,
+      -0.888
+    ],
+    "accuratearmor:quilted_armor_leggings": [
+      1317,
+      -2.536
+    ],
+    "accuratearmor:quilted_fur_armor_leggings": [
+      1130,
+      -1.04
+    ],
+    "accuratearmor:quilted_wool_armor_green_leggings": [
+      1107,
+      -0.856
+    ],
+    "accuratearmor:quilted_wool_armor_leggings": [
+      1107,
+      -0.856
+    ],
+    "accuratearmor:quilted_wool_armor_white_leggings": [
+      1091,
+      -0.728
+    ],
+    "accuratearmor:quitled_armor_upgrade_leggings": [
+      1208,
+      -1.664
+    ],
+    "accuratearmor:scale_armor_leggings": [
+      698,
+      2.416
+    ],
+    "accuratearmor:steel_plate_armor_leggings": [
+      425,
+      4.6
+    ],
+    "accuratearmor:steel_plate_armor_red_leggings": [
+      425,
+      4.6
+    ],
+    "accuratearmor:steel_plate_armor_upgrade_leggings": [
+      280,
+      5.76
+    ],
+    "accuratearmor:strong_hq_armor_leggings": [
+      1119,
+      -0.952
+    ],
+    "accuratearmor:upgraded_iron_plate_armor_leggings": [
+      671,
+      2.632
+    ],
+    "accuratearmor:upgraded_quilted_wool_armor_grn_leggings": [
+      1070,
+      -0.56
+    ],
+    "accuratearmor:upgraded_quilted_wool_armor_leggings": [
+      1070,
+      -0.56
+    ],
+    "accuratearmor:upgraded_quilted_wool_wht_armor_leggings": [
+      1054,
+      -0.432
+    ],
+    "accuratearmor:village_clothes_leggings": [
+      1176,
+      -1.408
+    ],
+    "accuratearmor:warrior_chainmail_armor_leggings": [
+      743,
+      2.056
+    ],
+    "accuratearmor:winter_leather_armor_leggings": [
+      1113,
+      -0.904
+    ],
+    "lrarmor:armored_chemical_legs": [
+      751,
+      1.992
+    ],
+    "lrarmor:attacker_legs": [
+      315,
+      5.48
+    ],
+    "lrarmor:chemical_protective_legs": [
+      751,
+      1.992
+    ],
+    "lrarmor:defender_legs": [
+      1,
+      8.936
+    ],
+    "lrarmor:medical_legs": [
+      516,
+      3.872
+    ],
+    "lrarmor:scout_legs": [
+      625,
+      3.0
+    ],
+    "lrarmor:sniper_legs": [
+      751,
+      1.992
+    ],
+    "minecraft:chainmail_leggings": [
+      1098,
+      -0.784
+    ],
+    "minecraft:diamond_leggings": [
+      444,
+      4.448
+    ],
+    "minecraft:golden_leggings": [
+      1201,
+      -1.608
+    ],
+    "minecraft:iron_leggings": [
+      954,
+      0.368
+    ],
+    "minecraft:leather_leggings": [
+      1356,
+      -2.848
+    ],
+    "minecraft:netherite_leggings": [
+      361,
+      5.112
+    ],
+    "pretaccraft:combat_armor_leggings": [
+      1,
+      11.2
+    ],
+    "pretaccraft:heavy_armor_leggings": [
+      1,
+      15.384
+    ],
+    "pretaccraft:o_old_armor_leggings": [
+      627,
+      2.984
+    ],
+    "pretaccraft:operator_armor_leggings": [
+      891,
+      0.872
+    ],
+    "pretaccraft:tactical_armor_leggings": [
+      1,
+      9.136
+    ],
+    "swem:amethyst_pants": [
+      1,
+      22.824
+    ],
+    "zombie_extreme:camouflage_suit_forest_leggings": [
+      1063,
+      -0.504
+    ],
+    "zombie_extreme:combat_armor_leggings": [
+      1,
+      9.728
+    ],
+    "zombie_extreme:exo_suit_leggings": [
+      1,
+      28.16
+    ],
+    "zombie_extreme:hazmat_suit_leggings": [
+      444,
+      4.448
+    ],
+    "zombie_extreme:juggernaut_suit_leggings": [
+      1,
+      18.536
+    ],
+    "zombie_extreme:military_suit_leggings": [
+      1,
+      8.072
+    ],
+    "zombie_extreme:swat_suit_leggings": [
+      439,
+      4.488
+    ]
+  },
+  "CHEST": {
+    "accuratearmor:army_camo_forest_a_chestplate": [
+      1254,
+      -2.032
+    ],
+    "accuratearmor:army_camo_forest_b_chestplate": [
+      1254,
+      -2.032
+    ],
+    "accuratearmor:army_camo_forest_c_chestplate": [
+      1254,
+      -2.032
+    ],
+    "accuratearmor:army_camo_forest_chestplate": [
+      1254,
+      -2.032
+    ],
+    "accuratearmor:army_camo_plain_chestplate": [
+      1254,
+      -2.032
+    ],
+    "accuratearmor:army_camo_snow_chestplate": [
+      1254,
+      -2.032
+    ],
+    "accuratearmor:assault_armor_blk_chestplate": [
+      1,
+      14.712
+    ],
+    "accuratearmor:assault_armor_brw_chestplate": [
+      1,
+      14.712
+    ],
+    "accuratearmor:assault_armor_grn_chestplate": [
+      1,
+      14.712
+    ],
+    "accuratearmor:bone_plate_armor_chestplate": [
+      1342,
+      -2.736
+    ],
+    "accuratearmor:camo_forest_a_chestplate": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:camo_forest_b_chestplate": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:camo_forest_c_chestplate": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:camo_forest_chestplate": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:camo_plain_a_chestplate": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:camo_plain_chestplate": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:camo_sand_chestplate": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:camo_snow_chestplate": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:dragonscale_armor_chestplate": [
+      256,
+      5.952
+    ],
+    "accuratearmor:field_camo_forest_a_chestplate": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_forest_b_chestplate": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_forest_c_chestplate": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_forest_chestplate": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_plain_a_chestplate": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_plain_chestplate": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_sand_chestplate": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_urban_a_chestplate": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_urban_b_chestplate": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_urban_chestplate": [
+      781,
+      1.752
+    ],
+    "accuratearmor:flak_armor_blk_chestplate": [
+      573,
+      3.416
+    ],
+    "accuratearmor:flak_armor_chestplate": [
+      573,
+      3.416
+    ],
+    "accuratearmor:goldened_iron_plate_armor_chestplate": [
+      674,
+      2.608
+    ],
+    "accuratearmor:heavy_bone_plate_armor_chestplate": [
+      1260,
+      -2.08
+    ],
+    "accuratearmor:heavy_diamond_plate_armor_chestplate": [
+      1,
+      9.496
+    ],
+    "accuratearmor:heavy_dragon_plate_armor_chestplate": [
+      1,
+      14.008
+    ],
+    "accuratearmor:heavy_iron_plate_armor_chestplate": [
+      347,
+      5.224
+    ],
+    "accuratearmor:heavy_nezerit_plate_armor_chestplate": [
+      1,
+      10.064
+    ],
+    "accuratearmor:heavy_quilted_armor_chestplate": [
+      1213,
+      -1.704
+    ],
+    "accuratearmor:heavy_steel_plate_armor_chestplate": [
+      288,
+      5.696
+    ],
+    "accuratearmor:infantry_armor_chestplate": [
+      68,
+      7.456
+    ],
+    "accuratearmor:infantry_armor_plain_camo_chestplate": [
+      68,
+      7.456
+    ],
+    "accuratearmor:infantry_armor_sand_camo_chestplate": [
+      68,
+      7.456
+    ],
+    "accuratearmor:infantry_armor_sand_chestplate": [
+      68,
+      7.456
+    ],
+    "accuratearmor:infantry_armor_urban_a_chestplate": [
+      68,
+      7.456
+    ],
+    "accuratearmor:infantry_armor_urban_chestplate": [
+      68,
+      7.456
+    ],
+    "accuratearmor:infantry_veteran_armor_chestplate": [
+      62,
+      7.504
+    ],
+    "accuratearmor:infantry_veteran_sand_armor_chestplate": [
+      495,
+      4.04
+    ],
+    "accuratearmor:iron_plate_armor_chestplate": [
+      674,
+      2.608
+    ],
+    "accuratearmor:linen_armor_chestplate": [
+      1359,
+      -2.872
+    ],
+    "accuratearmor:linothorax_armor_blu_chestplate": [
+      1221,
+      -1.768
+    ],
+    "accuratearmor:linothorax_armor_grn_chestplate": [
+      1221,
+      -1.768
+    ],
+    "accuratearmor:linothorax_armor_pur_chestplate": [
+      1221,
+      -1.768
+    ],
+    "accuratearmor:linothorax_armor_red_chestplate": [
+      1221,
+      -1.768
+    ],
+    "accuratearmor:mage_armor_chestplate": [
+      1111,
+      -0.888
+    ],
+    "accuratearmor:quilted_armor_chestplate": [
+      1317,
+      -2.536
+    ],
+    "accuratearmor:quilted_fur_armor_chestplate": [
+      1130,
+      -1.04
+    ],
+    "accuratearmor:quilted_wool_armor_chestplate": [
+      1107,
+      -0.856
+    ],
+    "accuratearmor:quilted_wool_armor_green_chestplate": [
+      1107,
+      -0.856
+    ],
+    "accuratearmor:quilted_wool_armor_white_chestplate": [
+      1091,
+      -0.728
+    ],
+    "accuratearmor:quitled_armor_upgrade_chestplate": [
+      1208,
+      -1.664
+    ],
+    "accuratearmor:scale_armor_chestplate": [
+      698,
+      2.416
+    ],
+    "accuratearmor:steel_plate_armor_chestplate": [
+      425,
+      4.6
+    ],
+    "accuratearmor:steel_plate_armor_red_chestplate": [
+      425,
+      4.6
+    ],
+    "accuratearmor:steel_plate_armor_upgrade_chestplate": [
+      280,
+      5.76
+    ],
+    "accuratearmor:strong_hq_armor_chestplate": [
+      1119,
+      -0.952
+    ],
+    "accuratearmor:upgraded_iron_plate_armor_chestplate": [
+      671,
+      2.632
+    ],
+    "accuratearmor:upgraded_quilted_wool_armor_chestplate": [
+      1070,
+      -0.56
+    ],
+    "accuratearmor:upgraded_quilted_wool_armor_grn_chestplate": [
+      1070,
+      -0.56
+    ],
+    "accuratearmor:upgraded_quilted_wool_wht_armor_chestplate": [
+      1054,
+      -0.432
+    ],
+    "accuratearmor:village_clothes_chestplate": [
+      1176,
+      -1.408
+    ],
+    "accuratearmor:warrior_chainmail_armor_chestplate": [
+      743,
+      2.056
+    ],
+    "accuratearmor:winter_leather_armor_chestplate": [
+      1113,
+      -0.904
+    ],
+    "create:copper_backtank": [
+      1042,
+      -0.336
+    ],
+    "lrarmor:armored_chemical_chest": [
+      751,
+      1.992
+    ],
+    "lrarmor:attacker_chest": [
+      315,
+      5.48
+    ],
+    "lrarmor:chemical_protective_chest": [
+      751,
+      1.992
+    ],
+    "lrarmor:defender_chest": [
+      1,
+      8.936
+    ],
+    "lrarmor:medical_chest": [
+      516,
+      3.872
+    ],
+    "lrarmor:scout_chest": [
+      625,
+      3.0
+    ],
+    "lrarmor:sniper_chest": [
+      751,
+      1.992
+    ],
+    "minecraft:chainmail_chestplate": [
+      1098,
+      -0.784
+    ],
+    "minecraft:diamond_chestplate": [
+      444,
+      4.448
+    ],
+    "minecraft:golden_chestplate": [
+      1201,
+      -1.608
+    ],
+    "minecraft:iron_chestplate": [
+      954,
+      0.368
+    ],
+    "minecraft:leather_chestplate": [
+      1356,
+      -2.848
+    ],
+    "minecraft:netherite_chestplate": [
+      361,
+      5.112
+    ],
+    "pretaccraft:combat_armor_chestplate": [
+      1,
+      11.2
+    ],
+    "pretaccraft:heavy_armor_chestplate": [
+      1,
+      15.384
+    ],
+    "pretaccraft:o_old_armor_chestplate": [
+      627,
+      2.984
+    ],
+    "pretaccraft:operator_armor_chestplate": [
+      891,
+      0.872
+    ],
+    "pretaccraft:tactical_armor_chestplate": [
+      1,
+      9.136
+    ],
+    "swem:amethyst_chestplate": [
+      1,
+      22.824
+    ],
+    "zombie_extreme:camouflage_suit_forest_chestplate": [
+      1063,
+      -0.504
+    ],
+    "zombie_extreme:civilian_suit_chestplate": [
+      790,
+      1.68
+    ],
+    "zombie_extreme:combat_armor_chestplate": [
+      1,
+      9.728
+    ],
+    "zombie_extreme:exo_suit_chestplate": [
+      1,
+      28.16
+    ],
+    "zombie_extreme:hazmat_suit_chestplate": [
+      444,
+      4.448
+    ],
+    "zombie_extreme:juggernaut_suit_chestplate": [
+      1,
+      18.536
+    ],
+    "zombie_extreme:military_suit_chestplate": [
+      1,
+      8.072
+    ],
+    "zombie_extreme:police_suit_chestplate": [
+      534,
+      3.728
+    ],
+    "zombie_extreme:swat_suit_chestplate": [
+      439,
+      4.488
+    ]
+  },
+  "HEAD": {
+    "accuratearmor:army_camo_forest_a_helmet": [
+      1254,
+      -2.032
+    ],
+    "accuratearmor:army_camo_forest_b_helmet": [
+      1254,
+      -2.032
+    ],
+    "accuratearmor:army_camo_forest_c_helmet": [
+      1254,
+      -2.032
+    ],
+    "accuratearmor:army_camo_forest_helmet": [
+      1254,
+      -2.032
+    ],
+    "accuratearmor:army_camo_plain_helmet": [
+      1254,
+      -2.032
+    ],
+    "accuratearmor:army_camo_snow_helmet": [
+      1254,
+      -2.032
+    ],
+    "accuratearmor:assault_armor_blk_helmet": [
+      1,
+      14.712
+    ],
+    "accuratearmor:assault_armor_brw_helmet": [
+      1,
+      14.712
+    ],
+    "accuratearmor:assault_armor_grn_helmet": [
+      1,
+      14.712
+    ],
+    "accuratearmor:bone_plate_armor_helmet": [
+      1342,
+      -2.736
+    ],
+    "accuratearmor:camo_forest_a_helmet": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:camo_forest_b_helmet": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:camo_forest_c_helmet": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:camo_forest_helmet": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:camo_plain_a_helmet": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:camo_plain_helmet": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:camo_sand_helmet": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:camo_snow_helmet": [
+      1350,
+      -2.8
+    ],
+    "accuratearmor:dragonscale_armor_helmet": [
+      256,
+      5.952
+    ],
+    "accuratearmor:field_camo_forest_a_helmet": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_forest_b_helmet": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_forest_c_helmet": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_forest_helmet": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_plain_a_helmet": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_plain_helmet": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_sand_helmet": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_urban_a_helmet": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_urban_b_helmet": [
+      781,
+      1.752
+    ],
+    "accuratearmor:field_camo_urban_helmet": [
+      781,
+      1.752
+    ],
+    "accuratearmor:flak_armor_blk_helmet": [
+      573,
+      3.416
+    ],
+    "accuratearmor:flak_armor_helmet": [
+      573,
+      3.416
+    ],
+    "accuratearmor:goldened_iron_plate_armor_helmet": [
+      674,
+      2.608
+    ],
+    "accuratearmor:heavy_bone_plate_armor_helmet": [
+      1260,
+      -2.08
+    ],
+    "accuratearmor:heavy_diamond_plate_armor_helmet": [
+      1,
+      9.496
+    ],
+    "accuratearmor:heavy_dragon_plate_armor_helmet": [
+      1,
+      14.008
+    ],
+    "accuratearmor:heavy_iron_plate_armor_helmet": [
+      347,
+      5.224
+    ],
+    "accuratearmor:heavy_nezerit_plate_armor_helmet": [
+      1,
+      10.064
+    ],
+    "accuratearmor:heavy_quilted_armor_helmet": [
+      1213,
+      -1.704
+    ],
+    "accuratearmor:heavy_steel_plate_armor_helmet": [
+      288,
+      5.696
+    ],
+    "accuratearmor:infantry_armor_helmet": [
+      68,
+      7.456
+    ],
+    "accuratearmor:infantry_armor_plain_camo_helmet": [
+      68,
+      7.456
+    ],
+    "accuratearmor:infantry_armor_sand_camo_helmet": [
+      68,
+      7.456
+    ],
+    "accuratearmor:infantry_armor_sand_helmet": [
+      68,
+      7.456
+    ],
+    "accuratearmor:infantry_armor_urban_a_helmet": [
+      68,
+      7.456
+    ],
+    "accuratearmor:infantry_armor_urban_helmet": [
+      68,
+      7.456
+    ],
+    "accuratearmor:infantry_veteran_armor_helmet": [
+      62,
+      7.504
+    ],
+    "accuratearmor:infantry_veteran_sand_armor_helmet": [
+      495,
+      4.04
+    ],
+    "accuratearmor:iron_plate_armor_helmet": [
+      674,
+      2.608
+    ],
+    "accuratearmor:linen_armor_helmet": [
+      1359,
+      -2.872
+    ],
+    "accuratearmor:linothorax_armor_blu_helmet": [
+      1221,
+      -1.768
+    ],
+    "accuratearmor:linothorax_armor_grn_helmet": [
+      1221,
+      -1.768
+    ],
+    "accuratearmor:linothorax_armor_pur_helmet": [
+      1221,
+      -1.768
+    ],
+    "accuratearmor:linothorax_armor_red_helmet": [
+      1221,
+      -1.768
+    ],
+    "accuratearmor:mage_armor_helmet": [
+      1111,
+      -0.888
+    ],
+    "accuratearmor:quilted_armor_helmet": [
+      1317,
+      -2.536
+    ],
+    "accuratearmor:quilted_fur_armor_helmet": [
+      1130,
+      -1.04
+    ],
+    "accuratearmor:quilted_wool_armor_green_helmet": [
+      1107,
+      -0.856
+    ],
+    "accuratearmor:quilted_wool_armor_helmet": [
+      1107,
+      -0.856
+    ],
+    "accuratearmor:quilted_wool_armor_white_helmet": [
+      1091,
+      -0.728
+    ],
+    "accuratearmor:quitled_armor_upgrade_helmet": [
+      1208,
+      -1.664
+    ],
+    "accuratearmor:scale_armor_helmet": [
+      698,
+      2.416
+    ],
+    "accuratearmor:steel_plate_armor_helmet": [
+      425,
+      4.6
+    ],
+    "accuratearmor:steel_plate_armor_red_helmet": [
+      425,
+      4.6
+    ],
+    "accuratearmor:steel_plate_armor_upgrade_helmet": [
+      280,
+      5.76
+    ],
+    "accuratearmor:upgraded_iron_plate_armor_helmet": [
+      671,
+      2.632
+    ],
+    "accuratearmor:upgraded_quilted_wool_armor_grn_helmet": [
+      1070,
+      -0.56
+    ],
+    "accuratearmor:upgraded_quilted_wool_armor_helmet": [
+      1070,
+      -0.56
+    ],
+    "accuratearmor:upgraded_quilted_wool_wht_armor_helmet": [
+      1054,
+      -0.432
+    ],
+    "accuratearmor:village_clothes_helmet": [
+      1176,
+      -1.408
+    ],
+    "accuratearmor:warrior_chainmail_armor_helmet": [
+      743,
+      2.056
+    ],
+    "accuratearmor:winter_leather_armor_helmet": [
+      1113,
+      -0.904
+    ],
+    "create:diving_helmet": [
+      1141,
+      -1.128
+    ],
+    "dayzombierebooted:protection_helmet": [
+      954,
+      0.368
+    ],
+    "lrarmor:armored_chemical_head": [
+      751,
+      1.992
+    ],
+    "lrarmor:attacker_head": [
+      315,
+      5.48
+    ],
+    "lrarmor:chemical_protective_head": [
+      751,
+      1.992
+    ],
+    "lrarmor:defender_head": [
+      1,
+      8.936
+    ],
+    "lrarmor:medical_head": [
+      516,
+      3.872
+    ],
+    "lrarmor:scout_head": [
+      625,
+      3.0
+    ],
+    "lrarmor:sniper_head": [
+      751,
+      1.992
+    ],
+    "minecraft:chainmail_helmet": [
+      1098,
+      -0.784
+    ],
+    "minecraft:diamond_helmet": [
+      444,
+      4.448
+    ],
+    "minecraft:golden_helmet": [
+      1201,
+      -1.608
+    ],
+    "minecraft:iron_helmet": [
+      954,
+      0.368
+    ],
+    "minecraft:leather_helmet": [
+      1356,
+      -2.848
+    ],
+    "minecraft:netherite_helmet": [
+      361,
+      5.112
+    ],
+    "minecraft:turtle_helmet": [
+      865,
+      1.08
+    ],
+    "pretaccraft:combat_armor_helmet": [
+      1,
+      11.2
+    ],
+    "pretaccraft:heavy_armor_helmet": [
+      1,
+      15.384
+    ],
+    "pretaccraft:o_old_armor_helmet": [
+      627,
+      2.984
+    ],
+    "pretaccraft:operator_armor_helmet": [
+      891,
+      0.872
+    ],
+    "pretaccraft:tactical_armor_helmet": [
+      1,
+      9.136
+    ],
+    "swem:amethyst_helmet": [
+      1,
+      22.824
+    ],
+    "zombie_extreme:berret_helmet": [
+      1182,
+      -1.456
+    ],
+    "zombie_extreme:black_ops_glasses_helmet": [
+      696,
+      2.432
+    ],
+    "zombie_extreme:camouflage_suit_forest_helmet": [
+      1063,
+      -0.504
+    ],
+    "zombie_extreme:civilian_suit_helmet": [
+      790,
+      1.68
+    ],
+    "zombie_extreme:combat_armor_helmet": [
+      1,
+      9.728
+    ],
+    "zombie_extreme:exo_suit_helmet": [
+      1,
+      28.16
+    ],
+    "zombie_extreme:gas_mask_helmet": [
+      1108,
+      -0.864
+    ],
+    "zombie_extreme:hazmat_suit_helmet": [
+      444,
+      4.448
+    ],
+    "zombie_extreme:juggernaut_suit_helmet": [
+      1,
+      18.536
+    ],
+    "zombie_extreme:military_suit_helmet": [
+      1,
+      8.072
+    ],
+    "zombie_extreme:night_vision_glasses_helmet": [
+      1064,
+      -0.512
+    ],
+    "zombie_extreme:police_suit_helmet": [
+      534,
+      3.728
+    ],
+    "zombie_extreme:swat_suit_helmet": [
+      439,
+      4.488
+    ]
+  }
+}

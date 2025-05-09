@@ -1,0 +1,303 @@
+---- Minecraft Crash Report ----
+// Why is it breaking :(
+
+Time: 5/8/25, 11:30 PM
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at net.minecraftforge.fml.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:85) ~[forge:?] {re:classloading}
+	at net.minecraftforge.fml.server.ServerModLoader.load(ServerModLoader.java:51) ~[forge:?] {re:classloading}
+	at net.minecraft.server.Main.main(Main.java:95) ~[?:?] {re:classloading,re:mixin,pl:mixin:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?] {}
+	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51) ~[forge-1.16.5-36.2.34.jar:36.2] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?] {}
+	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63) [forge-1.16.5-36.2.34.jar:?] {}
+	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60) [forge-1.16.5-36.2.34.jar:?] {}
+	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57) [forge-1.16.5-36.2.34.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: main
+Stacktrace:
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformSingleDescriptor(MixinTargetContext.java:983) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {re:classloading}
+-- MOD create --
+Details:
+	Caused by 0: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+		at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+		at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+		at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+		at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+		at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:154) ~[modlauncher-8.1.3.jar:8.1.3+8.1.3+main-8.1.x.c94d18ec] {}
+		at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.1.3.jar:?] {}
+		at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.1.3.jar:?] {}
+		at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.1.3.jar:?] {}
+		at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.1.3.jar:?] {re:classloading}
+		at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.1.3.jar:?] {re:classloading}
+		at java.lang.ClassLoader.loadClass(ClassLoader.java:527) ~[?:?] {}
+		at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?] {}
+		at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?] {}
+		at java.lang.Class.privateGetPublicMethods(Class.java:3191) ~[?:?] {}
+		at java.lang.Class.privateGetPublicMethods(Class.java:3197) ~[?:?] {}
+		at java.lang.Class.privateGetPublicMethods(Class.java:3197) ~[?:?] {}
+		at java.lang.Class.getMethods(Class.java:1904) ~[?:?] {}
+		at net.minecraftforge.eventbus.EventBus.registerClass(EventBus.java:75) ~[eventbus-4.0.0.jar:?] {}
+		at net.minecraftforge.eventbus.EventBus.register(EventBus.java:118) ~[eventbus-4.0.0.jar:?] {}
+		at net.minecraftforge.fml.AutomaticEventSubscriber.lambda$inject$6(AutomaticEventSubscriber.java:75) ~[forge:?] {re:classloading}
+		at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?] {}
+		at net.minecraftforge.fml.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:62) ~[forge:?] {re:classloading}
+		at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:91) ~[forge:36.2] {re:classloading}
+		at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:120) ~[forge:?] {re:classloading}
+		at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1736) ~[?:?] {}
+		at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1728) ~[?:?] {}
+		at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) ~[?:?] {}
+		at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) ~[?:?] {}
+		at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) ~[?:?] {re:computing_frames}
+		at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) ~[?:?] {re:computing_frames}
+		at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) ~[?:?] {}
+
+	Caused by 1: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [mixins.essential.json:client.network.Mixin_RedirectToLocalConnection] from phase [DEFAULT] in config [mixins.essential.json] FAILED during APPLY
+		at org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:636) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+		at org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinApplyError(MixinProcessor.java:588) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+		at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:379) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+		at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+		at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+		at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+		at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:154) ~[modlauncher-8.1.3.jar:8.1.3+8.1.3+main-8.1.x.c94d18ec] {}
+		at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.1.3.jar:?] {}
+		at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.1.3.jar:?] {}
+		at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.1.3.jar:?] {}
+		at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.1.3.jar:?] {re:classloading}
+		at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.1.3.jar:?] {re:classloading}
+		at java.lang.ClassLoader.loadClass(ClassLoader.java:527) ~[?:?] {}
+		at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?] {}
+		at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?] {}
+		at java.lang.Class.privateGetPublicMethods(Class.java:3191) ~[?:?] {}
+		at java.lang.Class.privateGetPublicMethods(Class.java:3197) ~[?:?] {}
+		at java.lang.Class.privateGetPublicMethods(Class.java:3197) ~[?:?] {}
+		at java.lang.Class.getMethods(Class.java:1904) ~[?:?] {}
+		at net.minecraftforge.eventbus.EventBus.registerClass(EventBus.java:75) ~[eventbus-4.0.0.jar:?] {}
+		at net.minecraftforge.eventbus.EventBus.register(EventBus.java:118) ~[eventbus-4.0.0.jar:?] {}
+		at net.minecraftforge.fml.AutomaticEventSubscriber.lambda$inject$6(AutomaticEventSubscriber.java:75) ~[forge:?] {re:classloading}
+		at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?] {}
+		at net.minecraftforge.fml.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:62) ~[forge:?] {re:classloading}
+		at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:91) ~[forge:36.2] {re:classloading}
+		at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:120) ~[forge:?] {re:classloading}
+		at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1736) ~[?:?] {}
+		at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1728) ~[?:?] {}
+		at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) ~[?:?] {}
+		at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) ~[?:?] {}
+		at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) ~[?:?] {re:computing_frames}
+		at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) ~[?:?] {re:computing_frames}
+		at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) ~[?:?] {}
+
+	Caused by 2: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Unexpecteded ClassMetadataNotFoundException whilst transforming the mixin class: [MAIN Applicator Phase -> mixins.essential.json:client.network.Mixin_RedirectToLocalConnection -> Apply Methods -> (Lio/netty/bootstrap/Bootstrap;Ljava/net/InetAddress;I)Lio/netty/channel/ChannelFuture;:redirect$zke000$injectLocalChannel -> Transform LVT -> var=serverData -> desc=Lnet/minecraft/client/multiplayer/ServerData;]
+		at org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformMethod(MixinTargetContext.java:491) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {re:classloading}
+		at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyNormalMethod(MixinApplicatorStandard.java:532) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+		at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMethods(MixinApplicatorStandard.java:518) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+		at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:386) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+		at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:325) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+		at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:383) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {re:classloading}
+		at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:365) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {re:classloading}
+		at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+		at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+		at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+		at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+		at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:154) ~[modlauncher-8.1.3.jar:8.1.3+8.1.3+main-8.1.x.c94d18ec] {}
+		at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.1.3.jar:?] {}
+		at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.1.3.jar:?] {}
+		at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.1.3.jar:?] {}
+		at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.1.3.jar:?] {re:classloading}
+		at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.1.3.jar:?] {re:classloading}
+		at java.lang.ClassLoader.loadClass(ClassLoader.java:527) ~[?:?] {}
+		at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?] {}
+		at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?] {}
+		at java.lang.Class.privateGetPublicMethods(Class.java:3191) ~[?:?] {}
+		at java.lang.Class.privateGetPublicMethods(Class.java:3197) ~[?:?] {}
+		at java.lang.Class.privateGetPublicMethods(Class.java:3197) ~[?:?] {}
+		at java.lang.Class.getMethods(Class.java:1904) ~[?:?] {}
+		at net.minecraftforge.eventbus.EventBus.registerClass(EventBus.java:75) ~[eventbus-4.0.0.jar:?] {}
+		at net.minecraftforge.eventbus.EventBus.register(EventBus.java:118) ~[eventbus-4.0.0.jar:?] {}
+		at net.minecraftforge.fml.AutomaticEventSubscriber.lambda$inject$6(AutomaticEventSubscriber.java:75) ~[forge:?] {re:classloading}
+		at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?] {}
+		at net.minecraftforge.fml.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:62) ~[forge:?] {re:classloading}
+		at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:91) ~[forge:36.2] {re:classloading}
+		at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:120) ~[forge:?] {re:classloading}
+		at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1736) ~[?:?] {}
+		at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1728) ~[?:?] {}
+		at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) ~[?:?] {}
+		at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) ~[?:?] {}
+		at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) ~[?:?] {re:computing_frames}
+		at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) ~[?:?] {re:computing_frames}
+		at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) ~[?:?] {}
+
+	Mod File: create-mc1.16.5_v0.3.2g.jar
+	Failure message: Create (create) has failed to load correctly
+		org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+	Mod Version: v0.3.2g
+	Mod Issue URL: https://github.com/Creators-of-Create/Create/issues
+	Exception message: org.spongepowered.asm.mixin.throwables.ClassMetadataNotFoundException: net.minecraft.client.multiplayer.ServerData
+Stacktrace:
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformSingleDescriptor(MixinTargetContext.java:983) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {re:classloading}
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformSingleDescriptor(MixinTargetContext.java:943) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {re:classloading}
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformLVT(MixinTargetContext.java:544) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {re:classloading}
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformMethod(MixinTargetContext.java:450) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {re:classloading}
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyNormalMethod(MixinApplicatorStandard.java:532) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMethods(MixinApplicatorStandard.java:518) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:386) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:325) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:383) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {re:classloading}
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:365) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {re:classloading}
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.4.jar:0.8.4+Jenkins-b308.git-2accda5000f7602229606b39437565542cc6fba4] {}
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:154) ~[modlauncher-8.1.3.jar:8.1.3+8.1.3+main-8.1.x.c94d18ec] {}
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.1.3.jar:?] {re:classloading}
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.1.3.jar:?] {re:classloading}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:527) ~[?:?] {}
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?] {}
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3166) ~[?:?] {}
+	at java.lang.Class.privateGetPublicMethods(Class.java:3191) ~[?:?] {}
+	at java.lang.Class.privateGetPublicMethods(Class.java:3197) ~[?:?] {}
+	at java.lang.Class.privateGetPublicMethods(Class.java:3197) ~[?:?] {}
+	at java.lang.Class.getMethods(Class.java:1904) ~[?:?] {}
+	at net.minecraftforge.eventbus.EventBus.registerClass(EventBus.java:75) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.register(EventBus.java:118) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.fml.AutomaticEventSubscriber.lambda$inject$6(AutomaticEventSubscriber.java:75) ~[forge:?] {re:classloading}
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?] {}
+	at net.minecraftforge.fml.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:62) ~[forge:?] {re:classloading}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:91) ~[forge:36.2] {re:classloading}
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:120) ~[forge:?] {re:classloading}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1736) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1728) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) ~[?:?] {re:computing_frames}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) ~[?:?] {re:computing_frames}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Linux (amd64) version 6.8.0-1027-azure
+	Java Version: 11.0.26, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 1408728576 bytes (1343 MB) / 4043309056 bytes (3856 MB) up to 17179869184 bytes (16384 MB)
+	CPUs: 4
+	JVM Flags: 2 total; -Xms2G -Xmx16G
+	ModLauncher: 8.1.3+8.1.3+main-8.1.x.c94d18ec
+	ModLauncher launch target: fmlserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/mixin-0.8.4.jar mixin PLUGINSERVICE 
+		/eventbus-4.0.0.jar eventbus PLUGINSERVICE 
+		/forge-1.16.5-36.2.34.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.2.34.jar runtime_enum_extender PLUGINSERVICE 
+		/forge-1.16.5-36.2.34.jar capability_inject_definalize PLUGINSERVICE 
+		/accesstransformers-3.0.1.jar accesstransformer PLUGINSERVICE 
+		/forge-1.16.5-36.2.34.jar runtimedistcleaner PLUGINSERVICE 
+		/mixin-0.8.4.jar mixin TRANSFORMATIONSERVICE 
+		/essential_1-3-4-1_forge_1-16-5.jar essential-loader TRANSFORMATIONSERVICE 
+		/forge-1.16.5-36.2.34.jar fml TRANSFORMATIONSERVICE 
+	FML: 36.2
+	Forge: net.minecraftforge:36.2.34
+	FML Language Providers: 
+		javafml@36.2
+		minecraft@1
+		kotlinforforge@1.17.0
+	Mod List: 
+		Zombie Extreme 1.16.5 0.2.4 UNSTABLE VERSION.jar  |Zombie Extreme                |zombie_extreme                |0.2.4               |CREATE_REG|Manifest: NOSIGNATURE
+		VEB-04.03.1971-1.16.5.jar                         |(MTS/IV) VEB Automobilwerke Sc|auweschveb                    |03.03.1973          |CREATE_REG|Manifest: NOSIGNATURE
+		tetra-1.16.5-3.20.0.jar                           |Tetra                         |tetra                         |3.20.0              |CREATE_REG|Manifest: NOSIGNATURE
+		weaponmaster_ydm-forge-1.16.5-4.2.3.jar           |YDM's Weapon Master           |weaponmaster_ydm              |4.2.3               |CREATE_REG|Manifest: NOSIGNATURE
+		BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar|Better Animations Collection  |betteranimationscollection    |1.2.4               |CREATE_REG|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		blood-particles-1.16.3-1.0.1.jar                  |Blood Particles               |blood_particles               |1.0.1               |CREATE_REG|Manifest: NOSIGNATURE
+		connectiblechains-1.2.0.jar                       |Connectible Chains            |connectiblechains             |NONE                |CREATE_REG|Manifest: NOSIGNATURE
+		Dayzombies_rebooted-1.0.5_1.16.5.jar              |dayzombierebooted             |dayzombierebooted             |1.0.5               |CREATE_REG|Manifest: NOSIGNATURE
+		player-animation-lib-forge-0.4.0+1.16.5.jar       |Player Animator               |playeranimator                |0.4.0+1.16.5        |CREATE_REG|Manifest: NOSIGNATURE
+		jei-1.16.5-7.8.0.1013.jar                         |Just Enough Items             |jei                           |7.8.0.1013          |CREATE_REG|Manifest: NOSIGNATURE
+		VisualWorkbench-v1.1.0-1.16.5.jar                 |Visual Workbench              |visualworkbench               |1.1.0               |CREATE_REG|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		caesium-forge-1.16.5-0.6.6.jar                    |Lithium (Forge)               |lithium                       |0.6.6+rev.1         |CREATE_REG|Manifest: NOSIGNATURE
+		incontrol-1.16-5.2.12.jar                         |InControl                     |incontrol                     |1.16-5.2.12         |CREATE_REG|Manifest: NOSIGNATURE
+		abnormals_core-1.16.5-3.3.1.jar                   |Abnormals Core                |abnormals_core                |3.3.1               |CREATE_REG|Manifest: NOSIGNATURE
+		HAArmor 1.16.5-1.1.0.jar                          |Historically Accurate Armor   |accuratearmor                 |1.0.2               |CREATE_REG|Manifest: NOSIGNATURE
+		immersive_aircraft-0.5.2+1.16.5-forge.jar         |Immersive Aircraft            |immersive_aircraft            |0.5.2+1.16.5        |CREATE_REG|Manifest: NOSIGNATURE
+		tac-release-0.3.14.2-1.16.5.jar                   |Timeless and Classics Guns    |tac                           |0.3.14.2            |CREATE_REG|Manifest: NOSIGNATURE
+		mgui-1.16.5-3.3.0.jar                             |mgui                          |mgui                          |3.3.0               |CREATE_REG|Manifest: NOSIGNATURE
+		journeymap-1.16.5-5.8.6.jar                       |Journeymap                    |journeymap                    |5.8.6               |CREATE_REG|Manifest: NOSIGNATURE
+		EnhancedVisuals_v1.3.32_mc1.16.5.jar              |EnhancedVisuals               |enhancedvisuals               |1.3.0               |CREATE_REG|Manifest: NOSIGNATURE
+		zombieawareness-1.16.5-1.12.jar                   |Zombie Awareness              |zombieawareness               |1.16.5-1.12         |CREATE_REG|Manifest: NOSIGNATURE
+		BadMobs-1.16.5-9.1.9.jar                          |BadMobs                       |badmobs                       |9.1.9               |CREATE_REG|Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		lazydfu-0.1.3.jar                                 |LazyDFU                       |lazydfu                       |0.1.3               |CREATE_REG|Manifest: NOSIGNATURE
+		Canned Food 1.16.5 - 0.6.1.jar                    |Food cans                     |food_cans                     |1.0.0               |CREATE_REG|Manifest: NOSIGNATURE
+		Immersive Vehicles-1.16.5-22.17.0.jar             |Immersive Vehicles (formerly M|mts                           |NONE                |CREATE_REG|Manifest: NOSIGNATURE
+		fusion-1.1.1-forge-mc1.16.jar                     |Fusion                        |fusion                        |1.1.1               |CREATE_REG|Manifest: NOSIGNATURE
+		FpsReducer-forge-1.24-mc1.16.5.jar                |FPS Reducer                   |fpsreducer                    |1.24-mc1.16.5       |CREATE_REG|Manifest: NOSIGNATURE
+		carryon-1.16.5-1.15.6.24.jar                      |Carry On                      |carryon                       |1.15.6.24           |CREATE_REG|Manifest: NOSIGNATURE
+		cameraoverhaul-1.0-1.16.4.jar                     |Camera Overhaul               |cameraoverhaul                |1.0.0               |CREATE_REG|Manifest: NOSIGNATURE
+		forge-1.16.5-36.2.34-universal.jar                |Forge                         |forge                         |36.2.34             |CREATE_REG|Manifest: 22:af:21:d8:19:82:7f:93:94:fe:2b:ac:b7:e4:41:57:68:39:87:b1:a7:5c:c6:44:f9:25:74:21:14:f5:0d:90
+		DynamicSurroundings-1.16.5-4.0.5.0.jar            |§3Dynamic Surroundings        |dsurround                     |4.0.5.0             |CREATE_REG|Manifest: NOSIGNATURE
+		corpse-1.16.5-1.0.6.jar                           |Corpse                        |corpse                        |1.16.5-1.0.6        |CREATE_REG|Manifest: NOSIGNATURE
+		forge-1.16.5-36.2.34-server.jar                   |Minecraft                     |minecraft                     |1.16.5              |CREATE_REG|Manifest: NOSIGNATURE
+		TenshiLib-1.16.3-1.3.0.jar                        |TenshiLib                     |tenshilib                     |1.16.3-1.3.0        |CREATE_REG|Manifest: NOSIGNATURE
+		AmbientSounds_v3.1.11_mc1.16.5.jar                |Ambient Sounds                |ambientsounds                 |3.0.3               |CREATE_REG|Manifest: NOSIGNATURE
+		ToolBelt-1.16.5-1.16.3.jar                        |Tool Belt                     |toolbelt                      |1.16.3              |CREATE_REG|Manifest: NOSIGNATURE
+		BiomesOPlenty-1.16.5-13.1.0.488-universal.jar     |Biomes O' Plenty              |biomesoplenty                 |1.16.5-13.1.0.488   |CREATE_REG|Manifest: NOSIGNATURE
+		Simple knives 1.2.0 - 1.16.5.jar                  |Simple Knives                 |simpleknives                  |1.2.0               |CREATE_REG|Manifest: NOSIGNATURE
+		lrarmor-0.1.jar                                   |LesRaisinsArmor               |lrarmor                       |0.1                 |CREATE_REG|Manifest: NOSIGNATURE
+		CreativeCore_v2.2.1_mc1.16.5.jar                  |CreativeCore                  |creativecore                  |2.0.0               |CREATE_REG|Manifest: NOSIGNATURE
+		mcw-fences-1.1.2-mc1.16.5forge.jar                |Macaw's Fences and Walls      |mcwfences                     |1.1.2               |CREATE_REG|Manifest: NOSIGNATURE
+		supermartijn642corelib-1.1.17a-forge-mc1.16.jar   |SuperMartijn642's Core Lib    |supermartijn642corelib        |1.1.17a             |CREATE_REG|Manifest: NOSIGNATURE
+		inventorio-1.16-forge-1.6.7.jar                   |Inventorio                    |inventorio                    |1.6.7               |CREATE_REG|Manifest: NOSIGNATURE
+		smoothboot-forge-1.16.4-1.2.2.jar                 |Smooth Boot                   |smoothboot                    |1.16.4-1.2.2        |CREATE_REG|Manifest: NOSIGNATURE
+		betterfpsdist-1.2.jar                             |betterfpsdist mod             |betterfpsdist                 |1.2                 |CREATE_REG|Manifest: NOSIGNATURE
+		notenoughanimations-forge-1.7.6-mc1.16.5.jar      |NotEnoughAnimations           |notenoughanimations           |1.7.6               |CREATE_REG|Manifest: NOSIGNATURE
+		lightspeed-1.16.5-1.0.5.jar                       |Lightspeed                    |lightspeed                    |1.16.5-1.1.0        |CREATE_REG|Manifest: NOSIGNATURE
+		flywheel-1.16-0.2.5.jar                           |Flywheel                      |flywheel                      |1.16-0.2.5          |CREATE_REG|Manifest: NOSIGNATURE
+		create-mc1.16.5_v0.3.2g.jar                       |Create                        |create                        |v0.3.2g             |ERROR     |Manifest: NOSIGNATURE
+		C.M.A_Transport_Pack _v.3.1-1.16.5.jar            |CMA Cars                      |cmacars                       |V1.0                |CREATE_REG|Manifest: NOSIGNATURE
+		SpartanShields-1.16.5-2.1.2.jar                   |Spartan Shields               |spartanshields                |2.1.2               |CREATE_REG|Manifest: NOSIGNATURE
+		MorePlayerModels-1.16.5.20220731.jar              |More Player Models            |moreplayermodels              |1.16.5.20220731     |CREATE_REG|Manifest: NOSIGNATURE
+		mobsunscreen-1.16.5-3.0.4.jar                     |Mob Sunscreen                 |mobsunscreen                  |1.16.5-3.0.4        |CREATE_REG|Manifest: NOSIGNATURE
+		ParCool-1.16.5-3.3.0.2.jar                        |ParCool!                      |parcool                       |3.3.0.2             |CREATE_REG|Manifest: NOSIGNATURE
+		IAV_Parts_Pack_1.0.2-1.16.5.jar                   |(MTS/IV) IAV parts pack       |iav                           |1.0.1               |CREATE_REG|Manifest: NOSIGNATURE
+		performant-1.16.2-5-4.1m.jar                      |Performant                    |performant                    |3.73m               |CREATE_REG|Manifest: NOSIGNATURE
+		ToughAsNails-1.16.5-4.1.0.9-universal.jar         |Tough As Nails                |toughasnails                  |1.16.5-4.0.1.8      |CREATE_REG|Manifest: NOSIGNATURE
+		BetterThirdPerson-Forge-1.16.4-1.9.0.jar          |Better Third Person           |betterthirdperson             |1.9.0               |CREATE_REG|Manifest: NOSIGNATURE
+		backpacked-forge-1.16.5-2.1.13.jar                |Backpacked                    |backpacked                    |2.1.13              |CREATE_REG|Manifest: NOSIGNATURE
+		cgm-1.2.6-1.16.5.jar                              |MrCrayfish's Gun Mod          |cgm                           |1.2.6               |CREATE_REG|Manifest: NOSIGNATURE
+		zombieawarenessfix-1.1.jar                        |Zombie Awareness Fix          |zombieawarenessfix            |1.1                 |CREATE_REG|Manifest: NOSIGNATURE
+		lostcities-1.16-4.0.12-beta.jar                   |LostCities                    |lostcities                    |1.16-4.0.12-beta    |CREATE_REG|Manifest: NOSIGNATURE
+		obfuscate-0.6.3-1.16.5.jar                        |Obfuscate                     |obfuscate                     |0.6.3               |CREATE_REG|Manifest: NOSIGNATURE
+		vehicle-mod-0.45.2-1.16.3.jar                     |MrCrayfish's Vehicle Mod      |vehicle                       |0.45.2              |CREATE_REG|Manifest: NOSIGNATURE
+		AmbientEnvironment-5.0.0.11.jar                   |Ambient Environment           |ambientenvironment            |5.0.0.11            |CREATE_REG|Manifest: NOSIGNATURE
+		coroutil-forge-1.16.5-1.3.6.jar                   |CoroUtil                      |coroutil                      |1.16.5-1.3.6        |CREATE_REG|Manifest: NOSIGNATURE
+		SpartanWeaponry-1.16.5-2.2.2.jar                  |Spartan Weaponry              |spartanweaponry               |2.2.2               |CREATE_REG|Manifest: NOSIGNATURE
+		appleskin-forge-mc1.16.x-2.5.1.jar                |AppleSkin                     |appleskin                     |2.5.1+mc1.16.4      |CREATE_REG|Manifest: NOSIGNATURE
+		ferritecore-2.1.1-forge.jar                       |Ferrite Core                  |ferritecore                   |2.1.1               |CREATE_REG|Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+		connectedglass-1.1.12-forge-mc1.16.jar            |Connected Glass               |connectedglass                |1.1.12              |CREATE_REG|Manifest: NOSIGNATURE
+		cloth-config-4.17.132-forge.jar                   |Cloth Config v4 API           |cloth-config                  |4.17.132            |CREATE_REG|Manifest: NOSIGNATURE
+		PuzzlesLib-v1.0.15-1.16.5-Forge.jar               |Puzzles Lib                   |puzzleslib                    |1.0.15              |CREATE_REG|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		enhancedcelestials-2.0.9-1.16.5.jar               |Enhanced Celestials           |enhancedcelestials            |2.0.9-1.16.5        |CREATE_REG|Manifest: NOSIGNATURE
+		TacCraft [Forge 1.16.5] 0.1.jar                   |PreTacCraft                   |pretaccraft                   |1.0.0               |CREATE_REG|Manifest: NOSIGNATURE
+		CloudBoots-1.16.5-2.1.1.jar                       |Cloud Boots Mod               |cloudboots                    |2.1.1               |CREATE_REG|Manifest: NOSIGNATURE
+		improvedmobs-1.16.5-1.10.13.jar                   |Improved Mobs Mod             |improvedmobs                  |1.16.5-1.10.13      |CREATE_REG|Manifest: NOSIGNATURE
+		geckolib-forge-1.16.5-3.0.106.jar                 |GeckoLib                      |geckolib3                     |3.0.106             |CREATE_REG|Manifest: NOSIGNATURE
+		swem-1.16.5-0.5.3.22.jar                          |Star Worm Equestrian Mod      |swem                          |1.16.5-0.5.3.22     |CREATE_REG|Manifest: NOSIGNATURE
+		Essential (forge_1.16.5).jar                      |Essential                     |essential                     |1.3.4.1             |CREATE_REG|Manifest: NOSIGNATURE
+	Crash Report UUID: 8cb8ae51-6fb9-4e83-90b4-9d0e30b1d05d
